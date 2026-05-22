@@ -1,0 +1,135 @@
+[gd_scene format=3 uid="uid://dllkq2ot50gf4"]
+
+[ext_resource type="PackedScene" uid="uid://b0fnpw5ioofgn" path="res://scenes/pais.tscn" id="1_w7c3h"]
+[ext_resource type="Texture2D" uid="uid://tfo6h7vn8p6q" path="res://assets/america/chile/chile_default.png" id="2_klq6b"]
+[ext_resource type="Texture2D" uid="uid://d06lbj32tp2v2" path="res://assets/america/argentina/argentina_default.png" id="2_w8frs"]
+[ext_resource type="Texture2D" uid="uid://bke2k1i5s0xdr" path="res://assets/america/chile/chile_pressed.png" id="3_b121j"]
+[ext_resource type="Texture2D" uid="uid://nceudgbvoudj" path="res://assets/america/argentina/argentina_pressed.png" id="3_klq6b"]
+[ext_resource type="Texture2D" uid="uid://byia2wujgk448" path="res://assets/america/chile/chile_hover.png" id="4_8c41q"]
+[ext_resource type="Texture2D" uid="uid://bsont6mvepm5r" path="res://assets/america/argentina/argentina_hover.png" id="4_b121j"]
+[ext_resource type="Texture2D" uid="uid://dc5mlu1p4sdbg" path="res://assets/america/brasil/brasil_default.png" id="5_olg7q"]
+[ext_resource type="Texture2D" uid="uid://tgvjwuor15pj" path="res://assets/america/brasil/brasil_pressed.png" id="6_t1rx8"]
+[ext_resource type="Texture2D" uid="uid://5tw4oykd4q05" path="res://assets/america/brasil/brasil_hover.png" id="7_8iemx"]
+[ext_resource type="Texture2D" uid="uid://h36s7jjm1ynp" path="res://assets/america/mexico/mexico_default.png" id="11_arp2o"]
+[ext_resource type="Texture2D" uid="uid://b7kq6ambdx0uu" path="res://assets/america/mexico/mexico_pressed.png" id="12_ux5qa"]
+[ext_resource type="Texture2D" uid="uid://bgainjpcxk3on" path="res://assets/america/mexico/mexico_hover.png" id="13_82cfe"]
+[ext_resource type="Texture2D" uid="uid://dx6rke4ytpuhk" path="res://assets/america/usa/usa_default.png" id="14_gunhw"]
+[ext_resource type="Texture2D" uid="uid://ddujv47okairg" path="res://assets/america/usa/usa_pressed.png" id="15_8gofh"]
+[ext_resource type="Texture2D" uid="uid://b48vxwurta8ty" path="res://assets/america/usa/usa_hover.png" id="16_h6wmr"]
+[ext_resource type="Texture2D" uid="uid://cf30vxu1vfwv1" path="res://assets/america/canada/canada_default.png" id="17_gunhw"]
+[ext_resource type="Texture2D" uid="uid://dnhjrkgn8unov" path="res://assets/america/canada/canada_pressed.png" id="18_8gofh"]
+[ext_resource type="Texture2D" uid="uid://dumet7fgtjgpu" path="res://assets/america/canada/canada_hover.png" id="19_h6wmr"]
+[ext_resource type="Texture2D" uid="uid://b28ht6vgqgpm0" path="res://assets/africa/sudafrica/sudafrica_default.png" id="20_kih21"]
+[ext_resource type="Texture2D" uid="uid://bgdbri66hpu0s" path="res://assets/africa/etiopia/etiopia_default.png" id="20_pqd0y"]
+[ext_resource type="Texture2D" uid="uid://cfcjsywqfmej5" path="res://assets/africa/etiopia/etiopia_pressed.png" id="21_5k0ak"]
+[ext_resource type="Texture2D" uid="uid://cb7530y4fdeam" path="res://assets/africa/sudafrica/sudafrica_pressed.png" id="21_w3o6u"]
+[ext_resource type="Texture2D" uid="uid://05jo6j8xcige" path="res://assets/africa/sudafrica/sudafrica_hover.png" id="22_2e2fo"]
+[ext_resource type="Texture2D" uid="uid://c8n523oglrjp" path="res://assets/africa/etiopia/etiopia_hover.png" id="22_wu01b"]
+[ext_resource type="Texture2D" uid="uid://dnxrlaa2udodc" path="res://assets/africa/egipto/egipto_default.png" id="26_gur6y"]
+[ext_resource type="Texture2D" uid="uid://cdmtayuiy08hu" path="res://assets/africa/egipto/egipto_hover.png" id="27_v3why"]
+[ext_resource type="Texture2D" uid="uid://dtywowh82ssxh" path="res://assets/africa/sahara/sahara_default.png" id="28_asl66"]
+[ext_resource type="Texture2D" uid="uid://rafragpclvpr" path="res://assets/africa/sahara/sahara_pressed.png" id="29_2jdvr"]
+[ext_resource type="Texture2D" uid="uid://b1agk6s4e0fha" path="res://assets/africa/sahara/sahara_hover.png" id="30_q4oe8"]
+
+[node name="Level" type="Node2D" unique_id=201191576]
+
+[node name="Mapa" type="Node2D" parent="." unique_id=1249394233]
+
+[node name="Argentina" parent="Mapa" unique_id=1194154123 instance=ExtResource("1_w7c3h")]
+offset_left = 263.0
+offset_top = 492.0
+offset_right = 322.0
+offset_bottom = 596.0
+texture_normal = ExtResource("2_w8frs")
+texture_pressed = ExtResource("3_klq6b")
+texture_hover = ExtResource("4_b121j")
+
+[node name="Brasil" parent="Mapa" unique_id=2086044391 instance=ExtResource("1_w7c3h")]
+offset_left = 253.0
+offset_top = 432.0
+offset_right = 337.0
+offset_bottom = 511.0
+texture_normal = ExtResource("5_olg7q")
+texture_pressed = ExtResource("6_t1rx8")
+texture_hover = ExtResource("7_8iemx")
+pais = 1
+
+[node name="Chile" parent="Mapa" unique_id=2039205059 instance=ExtResource("1_w7c3h")]
+offset_left = 238.0
+offset_top = 432.0
+offset_right = 272.0
+offset_bottom = 596.0
+texture_normal = ExtResource("2_klq6b")
+texture_pressed = ExtResource("3_b121j")
+texture_hover = ExtResource("4_8c41q")
+pais = 2
+
+[node name="Usa" parent="Mapa" unique_id=832481481 instance=ExtResource("1_w7c3h")]
+offset_left = 143.0
+offset_top = 302.0
+offset_right = 302.0
+offset_bottom = 411.0
+texture_normal = ExtResource("14_gunhw")
+texture_pressed = ExtResource("15_8gofh")
+texture_hover = ExtResource("16_h6wmr")
+pais = 4
+
+[node name="Mexico" parent="Mapa" unique_id=771465143 instance=ExtResource("1_w7c3h")]
+offset_left = 168.0
+offset_top = 352.0
+offset_right = 252.0
+offset_bottom = 436.0
+texture_normal = ExtResource("11_arp2o")
+texture_pressed = ExtResource("12_ux5qa")
+texture_hover = ExtResource("13_82cfe")
+pais = 3
+
+[node name="Canada" parent="Mapa" unique_id=1857331594 instance=ExtResource("1_w7c3h")]
+offset_left = 73.0
+offset_top = 232.0
+offset_right = 332.0
+offset_bottom = 316.0
+texture_normal = ExtResource("17_gunhw")
+texture_pressed = ExtResource("18_8gofh")
+texture_hover = ExtResource("19_h6wmr")
+pais = 5
+
+[node name="Sudafrica" parent="." unique_id=45996643 instance=ExtResource("1_w7c3h")]
+offset_left = 506.0
+offset_top = 430.0
+offset_right = 546.0
+offset_bottom = 470.0
+texture_normal = ExtResource("20_kih21")
+texture_pressed = ExtResource("21_w3o6u")
+texture_hover = ExtResource("22_2e2fo")
+pais = 9
+
+[node name="Sahara" parent="." unique_id=481087686 instance=ExtResource("1_w7c3h")]
+offset_left = 456.0
+offset_top = 360.0
+offset_right = 535.0
+offset_bottom = 434.0
+texture_normal = ExtResource("28_asl66")
+texture_pressed = ExtResource("29_2jdvr")
+texture_hover = ExtResource("30_q4oe8")
+pais = 8
+
+[node name="Etiopia" parent="." unique_id=2129370448 instance=ExtResource("1_w7c3h")]
+offset_left = 501.0
+offset_top = 365.0
+offset_right = 590.0
+offset_bottom = 454.0
+texture_normal = ExtResource("20_pqd0y")
+texture_pressed = ExtResource("21_5k0ak")
+texture_hover = ExtResource("22_wu01b")
+pais = 7
+
+[node name="Egipto" parent="." unique_id=1855174551 instance=ExtResource("1_w7c3h")]
+offset_left = 546.0
+offset_top = 365.0
+offset_right = 605.0
+offset_bottom = 419.0
+texture_normal = ExtResource("26_gur6y")
+texture_pressed = ExtResource("26_gur6y")
+texture_hover = ExtResource("27_v3why")
+pais = 6

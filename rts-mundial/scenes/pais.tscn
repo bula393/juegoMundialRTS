@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b0fnpw5ioofgn"]
+
+[ext_resource type="Script" uid="uid://fdgfj3ahleb1" path="res://scripts/pais.gd" id="4_ixvb2"]
+
+[node name="Pais" type="TextureButton" unique_id=1194154123]
+offset_right = 40.0
+offset_bottom = 40.0
+toggle_mode = true
+stretch_mode = 3
+script = ExtResource("4_ixvb2")
