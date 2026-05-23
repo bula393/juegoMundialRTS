@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b715knwdglr72"
-path="res://.godot/imported/asia2_default.png-f4620f502109e5308e8a1a71c081e37d.ctex"
+uid="uid://bccs1r2r72s4m"
+path="res://.godot/imported/ChinaHover.png-b3b8ad7b4942ea786947b0cb444f8140.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/asia/asia2_default.png"
-dest_files=["res://.godot/imported/asia2_default.png-f4620f502109e5308e8a1a71c081e37d.ctex"]
+source_file="res://assets/asia/China/ChinaHover.png"
+dest_files=["res://.godot/imported/ChinaHover.png-b3b8ad7b4942ea786947b0cb444f8140.ctex"]
 
 [params]
 

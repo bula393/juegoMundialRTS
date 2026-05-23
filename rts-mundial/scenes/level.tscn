@@ -2,11 +2,8 @@
 
 [ext_resource type="PackedScene" uid="uid://b0fnpw5ioofgn" path="res://scenes/pais.tscn" id="1_w7c3h"]
 [ext_resource type="Texture2D" uid="uid://tfo6h7vn8p6q" path="res://assets/america/chile/chile_default.png" id="2_klq6b"]
-[ext_resource type="Texture2D" uid="uid://d06lbj32tp2v2" path="res://assets/america/argentina/argentina_default.png" id="2_w8frs"]
 [ext_resource type="Texture2D" uid="uid://bke2k1i5s0xdr" path="res://assets/america/chile/chile_pressed.png" id="3_b121j"]
-[ext_resource type="Texture2D" uid="uid://nceudgbvoudj" path="res://assets/america/argentina/argentina_pressed.png" id="3_klq6b"]
 [ext_resource type="Texture2D" uid="uid://byia2wujgk448" path="res://assets/america/chile/chile_hover.png" id="4_8c41q"]
-[ext_resource type="Texture2D" uid="uid://bsont6mvepm5r" path="res://assets/america/argentina/argentina_hover.png" id="4_b121j"]
 [ext_resource type="Texture2D" uid="uid://dc5mlu1p4sdbg" path="res://assets/america/brasil/brasil_default.png" id="5_olg7q"]
 [ext_resource type="Texture2D" uid="uid://tgvjwuor15pj" path="res://assets/america/brasil/brasil_pressed.png" id="6_t1rx8"]
 [ext_resource type="Texture2D" uid="uid://5tw4oykd4q05" path="res://assets/america/brasil/brasil_hover.png" id="7_8iemx"]
@@ -19,17 +16,39 @@
 [ext_resource type="Texture2D" uid="uid://cf30vxu1vfwv1" path="res://assets/america/canada/canada_default.png" id="17_gunhw"]
 [ext_resource type="Texture2D" uid="uid://dnhjrkgn8unov" path="res://assets/america/canada/canada_pressed.png" id="18_8gofh"]
 [ext_resource type="Texture2D" uid="uid://dumet7fgtjgpu" path="res://assets/america/canada/canada_hover.png" id="19_h6wmr"]
+[ext_resource type="Texture2D" uid="uid://2pfluptdjxv" path="res://assets/europa/francia/francia_default.png" id="20_535f6"]
 [ext_resource type="Texture2D" uid="uid://b28ht6vgqgpm0" path="res://assets/africa/sudafrica/sudafrica_default.png" id="20_kih21"]
 [ext_resource type="Texture2D" uid="uid://bgdbri66hpu0s" path="res://assets/africa/etiopia/etiopia_default.png" id="20_pqd0y"]
 [ext_resource type="Texture2D" uid="uid://cfcjsywqfmej5" path="res://assets/africa/etiopia/etiopia_pressed.png" id="21_5k0ak"]
+[ext_resource type="Texture2D" uid="uid://vygky1sy2rwg" path="res://assets/europa/francia/francia_pressed.png" id="21_50fbu"]
 [ext_resource type="Texture2D" uid="uid://cb7530y4fdeam" path="res://assets/africa/sudafrica/sudafrica_pressed.png" id="21_w3o6u"]
+[ext_resource type="Texture2D" uid="uid://c18k58g7tkdrw" path="res://assets/europa/francia/francia_hover.png" id="22_0fmhk"]
 [ext_resource type="Texture2D" uid="uid://05jo6j8xcige" path="res://assets/africa/sudafrica/sudafrica_hover.png" id="22_2e2fo"]
 [ext_resource type="Texture2D" uid="uid://c8n523oglrjp" path="res://assets/africa/etiopia/etiopia_hover.png" id="22_wu01b"]
+[ext_resource type="Texture2D" uid="uid://r0bdofote2ku" path="res://assets/europa/alemania/alemania_default.png" id="23_iafhg"]
+[ext_resource type="Texture2D" uid="uid://q8rl17wnwjhx" path="res://assets/europa/alemania/alemania_Pressed.png" id="24_cr74b"]
+[ext_resource type="Texture2D" uid="uid://b8kl87haqa8h0" path="res://assets/europa/alemania/alemania_Hover.png" id="25_uhfbm"]
+[ext_resource type="Texture2D" uid="uid://d0cuuhfdwik5g" path="res://assets/oceania/Australia/australia_default.png" id="26_535f6"]
 [ext_resource type="Texture2D" uid="uid://dnxrlaa2udodc" path="res://assets/africa/egipto/egipto_default.png" id="26_gur6y"]
+[ext_resource type="Texture2D" uid="uid://dxt4gb1uwfkq4" path="res://assets/europa/inglaterra/inglaterra_default.png" id="26_lqb7q"]
+[ext_resource type="Texture2D" uid="uid://i6idwolanoq1" path="res://assets/oceania/Australia/australiaSelect.png" id="27_50fbu"]
+[ext_resource type="Texture2D" uid="uid://cippcikcqoc2o" path="res://assets/europa/inglaterra/inglaterra_pressed.png" id="27_ok3ci"]
 [ext_resource type="Texture2D" uid="uid://cdmtayuiy08hu" path="res://assets/africa/egipto/egipto_hover.png" id="27_v3why"]
+[ext_resource type="Texture2D" uid="uid://d0jdb2a6r6s3y" path="res://assets/oceania/Australia/australiaHover.png" id="28_0fmhk"]
 [ext_resource type="Texture2D" uid="uid://dtywowh82ssxh" path="res://assets/africa/sahara/sahara_default.png" id="28_asl66"]
+[ext_resource type="Texture2D" uid="uid://dbvpf3owc8ubp" path="res://assets/europa/inglaterra/inglaterra_hover.png" id="28_hv3ux"]
 [ext_resource type="Texture2D" uid="uid://rafragpclvpr" path="res://assets/africa/sahara/sahara_pressed.png" id="29_2jdvr"]
+[ext_resource type="Texture2D" uid="uid://df1iu8gu5mfdc" path="res://assets/oceania/SanMarino/sanmarino_default.png" id="29_j4eoh"]
+[ext_resource type="Texture2D" uid="uid://b783jue61cmna" path="res://assets/oceania/SanMarino/sanMarinoSelect.png" id="30_bhb1k"]
 [ext_resource type="Texture2D" uid="uid://b1agk6s4e0fha" path="res://assets/africa/sahara/sahara_hover.png" id="30_q4oe8"]
+[ext_resource type="Texture2D" uid="uid://crvtnllsqrxd7" path="res://assets/africa/egipto/egipto_pressed.png" id="30_w3o6u"]
+[ext_resource type="Texture2D" uid="uid://crbge2tjwxaa" path="res://assets/oceania/SanMarino/sanMarinoHover.png" id="31_tcyu4"]
+[ext_resource type="Texture2D" uid="uid://cupiyeen3moj3" path="res://assets/asia/Rusia/Rusia_default.png" id="32_vmndo"]
+[ext_resource type="Texture2D" uid="uid://dqswj0lylwrj6" path="res://assets/asia/Rusia/RusiaPressed.png" id="33_bo6tc"]
+[ext_resource type="Texture2D" uid="uid://de5l24doudy5y" path="res://assets/asia/Rusia/RusiaHover.png" id="34_7iqcu"]
+[ext_resource type="Texture2D" uid="uid://brqp0qbgdpny5" path="res://assets/asia/China/china_default.png" id="35_v4d4p"]
+[ext_resource type="Texture2D" uid="uid://qw2byh37llkd" path="res://assets/asia/China/ChinaPressed.png" id="36_30hdq"]
+[ext_resource type="Texture2D" uid="uid://bccs1r2r72s4m" path="res://assets/asia/China/ChinaHover.png" id="37_3fqns"]
 
 [node name="Level" type="Node2D" unique_id=201191576]
 
@@ -40,9 +59,6 @@ offset_left = 263.0
 offset_top = 492.0
 offset_right = 322.0
 offset_bottom = 596.0
-texture_normal = ExtResource("2_w8frs")
-texture_pressed = ExtResource("3_klq6b")
-texture_hover = ExtResource("4_b121j")
 
 [node name="Brasil" parent="Mapa" unique_id=2086044391 instance=ExtResource("1_w7c3h")]
 offset_left = 253.0
@@ -94,42 +110,112 @@ texture_pressed = ExtResource("18_8gofh")
 texture_hover = ExtResource("19_h6wmr")
 pais = 5
 
+[node name="Francia" parent="Mapa" unique_id=371455445 instance=ExtResource("1_w7c3h")]
+offset_left = 411.0
+offset_top = 320.0
+offset_right = 511.0
+offset_bottom = 424.0
+texture_normal = ExtResource("20_535f6")
+texture_pressed = ExtResource("21_50fbu")
+texture_hover = ExtResource("22_0fmhk")
+pais = 11
+
+[node name="Alemania" parent="Mapa" unique_id=41253303 instance=ExtResource("1_w7c3h")]
+offset_left = 465.0
+offset_top = 318.0
+offset_right = 565.0
+offset_bottom = 422.0
+texture_normal = ExtResource("23_iafhg")
+texture_pressed = ExtResource("24_cr74b")
+texture_hover = ExtResource("25_uhfbm")
+pais = 10
+
+[node name="Inlaterra" parent="Mapa" unique_id=1989718460 instance=ExtResource("1_w7c3h")]
+offset_left = 391.0
+offset_top = 279.0
+offset_right = 541.0
+offset_bottom = 379.0
+texture_normal = ExtResource("26_lqb7q")
+texture_pressed = ExtResource("27_ok3ci")
+texture_hover = ExtResource("28_hv3ux")
+pais = 12
+
+[node name="Australia" parent="Mapa" unique_id=1942058401 instance=ExtResource("1_w7c3h")]
+offset_left = 666.0
+offset_top = 457.0
+offset_right = 766.0
+offset_bottom = 561.0
+texture_normal = ExtResource("26_535f6")
+texture_pressed = ExtResource("27_50fbu")
+texture_hover = ExtResource("28_0fmhk")
+pais = 13
+
+[node name="San Marino" parent="Mapa" unique_id=2146341586 instance=ExtResource("1_w7c3h")]
+offset_left = 637.0
+offset_top = 388.0
+offset_right = 787.0
+offset_bottom = 492.0
+texture_normal = ExtResource("29_j4eoh")
+texture_pressed = ExtResource("30_bhb1k")
+texture_hover = ExtResource("31_tcyu4")
+pais = 14
+
+[node name="Rusia" parent="Mapa" unique_id=1373926230 instance=ExtResource("1_w7c3h")]
+offset_left = 593.0
+offset_top = 250.0
+offset_right = 820.0
+offset_bottom = 399.0
+texture_normal = ExtResource("32_vmndo")
+texture_pressed = ExtResource("33_bo6tc")
+texture_hover = ExtResource("34_7iqcu")
+pais = 15
+
+[node name="China" parent="Mapa" unique_id=717377168 instance=ExtResource("1_w7c3h")]
+offset_left = 526.0
+offset_top = 293.0
+offset_right = 626.0
+offset_bottom = 433.0
+texture_normal = ExtResource("35_v4d4p")
+texture_pressed = ExtResource("36_30hdq")
+texture_hover = ExtResource("37_3fqns")
+pais = 16
+
 [node name="Sudafrica" parent="." unique_id=45996643 instance=ExtResource("1_w7c3h")]
-offset_left = 506.0
-offset_top = 430.0
-offset_right = 546.0
-offset_bottom = 470.0
+offset_left = 479.0
+offset_top = 461.0
+offset_right = 558.0
+offset_bottom = 560.0
 texture_normal = ExtResource("20_kih21")
 texture_pressed = ExtResource("21_w3o6u")
 texture_hover = ExtResource("22_2e2fo")
 pais = 9
 
 [node name="Sahara" parent="." unique_id=481087686 instance=ExtResource("1_w7c3h")]
-offset_left = 456.0
-offset_top = 360.0
-offset_right = 535.0
-offset_bottom = 434.0
+offset_left = 429.0
+offset_top = 391.0
+offset_right = 508.0
+offset_bottom = 465.0
 texture_normal = ExtResource("28_asl66")
 texture_pressed = ExtResource("29_2jdvr")
 texture_hover = ExtResource("30_q4oe8")
 pais = 8
 
 [node name="Etiopia" parent="." unique_id=2129370448 instance=ExtResource("1_w7c3h")]
-offset_left = 501.0
-offset_top = 365.0
-offset_right = 590.0
-offset_bottom = 454.0
+offset_left = 474.0
+offset_top = 396.0
+offset_right = 563.0
+offset_bottom = 485.0
 texture_normal = ExtResource("20_pqd0y")
 texture_pressed = ExtResource("21_5k0ak")
 texture_hover = ExtResource("22_wu01b")
 pais = 7
 
 [node name="Egipto" parent="." unique_id=1855174551 instance=ExtResource("1_w7c3h")]
-offset_left = 546.0
-offset_top = 365.0
-offset_right = 605.0
-offset_bottom = 419.0
+offset_left = 519.0
+offset_top = 396.0
+offset_right = 578.0
+offset_bottom = 450.0
 texture_normal = ExtResource("26_gur6y")
-texture_pressed = ExtResource("26_gur6y")
+texture_pressed = ExtResource("30_w3o6u")
 texture_hover = ExtResource("27_v3why")
 pais = 6

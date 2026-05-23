@@ -1,10 +1,16 @@
 [gd_scene format=3 uid="uid://b0fnpw5ioofgn"]
 
+[ext_resource type="Texture2D" uid="uid://d06lbj32tp2v2" path="res://assets/america/argentina/argentina_default.png" id="1_ixvb2"]
+[ext_resource type="Texture2D" uid="uid://nceudgbvoudj" path="res://assets/america/argentina/argentina_pressed.png" id="2_6k0qy"]
+[ext_resource type="Texture2D" uid="uid://bsont6mvepm5r" path="res://assets/america/argentina/argentina_hover.png" id="3_mcvr5"]
 [ext_resource type="Script" uid="uid://fdgfj3ahleb1" path="res://scripts/pais.gd" id="4_ixvb2"]
 
 [node name="Pais" type="TextureButton" unique_id=1194154123]
 offset_right = 40.0
 offset_bottom = 40.0
 toggle_mode = true
+texture_normal = ExtResource("1_ixvb2")
+texture_pressed = ExtResource("2_6k0qy")
+texture_hover = ExtResource("3_mcvr5")
 stretch_mode = 3
 script = ExtResource("4_ixvb2")
