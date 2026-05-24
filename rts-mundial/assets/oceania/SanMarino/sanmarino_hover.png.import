@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d0jdb2a6r6s3y"
-path="res://.godot/imported/australiaHover.png-be05d644a295bdbdd062c55bcef62860.ctex"
+uid="uid://crbge2tjwxaa"
+path="res://.godot/imported/sanmarino_hover.png-314a8362843ed5c54af821e20015b4a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/oceania/Australia/australiaHover.png"
-dest_files=["res://.godot/imported/australiaHover.png-be05d644a295bdbdd062c55bcef62860.ctex"]
+source_file="res://assets/oceania/SanMarino/sanmarino_hover.png"
+dest_files=["res://.godot/imported/sanmarino_hover.png-314a8362843ed5c54af821e20015b4a0.ctex"]
 
 [params]
 

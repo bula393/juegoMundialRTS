@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d2wwy583khqkh"
-path="res://.godot/imported/rusia_default.png-85c35ff7a5821fe4cd3a026896692983.ctex"
+uid="uid://djxbfsvl8l2cw"
+path="res://.godot/imported/india_default.png-20dc3c09e6e68368c6993fcd447fcb01.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/asia/Rusia/rusia_default.png"
-dest_files=["res://.godot/imported/rusia_default.png-85c35ff7a5821fe4cd3a026896692983.ctex"]
+source_file="res://assets/asia/India/india_default.png"
+dest_files=["res://.godot/imported/india_default.png-20dc3c09e6e68368c6993fcd447fcb01.ctex"]
 
 [params]
 

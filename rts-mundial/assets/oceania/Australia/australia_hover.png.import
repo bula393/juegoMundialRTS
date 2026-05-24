@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bccs1r2r72s4m"
-path="res://.godot/imported/ChinaHover.png-b3b8ad7b4942ea786947b0cb444f8140.ctex"
+uid="uid://d0jdb2a6r6s3y"
+path="res://.godot/imported/australia_hover.png-41638313ac75630eec3a7331846963a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/asia/China/ChinaHover.png"
-dest_files=["res://.godot/imported/ChinaHover.png-b3b8ad7b4942ea786947b0cb444f8140.ctex"]
+source_file="res://assets/oceania/Australia/australia_hover.png"
+dest_files=["res://.godot/imported/australia_hover.png-41638313ac75630eec3a7331846963a0.ctex"]
 
 [params]
 

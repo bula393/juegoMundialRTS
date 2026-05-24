@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://de5l24doudy5y"
-path="res://.godot/imported/RusiaHover.png-3bbaa0e271101e90efcce0bc1cd4c154.ctex"
+uid="uid://bkpff7xffdxqw"
+path="res://.godot/imported/china_pressed.png-a7aff7b052ee541cc82dbf4d0966098d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/asia/Rusia/RusiaHover.png"
-dest_files=["res://.godot/imported/RusiaHover.png-3bbaa0e271101e90efcce0bc1cd4c154.ctex"]
+source_file="res://assets/asia/China/china_pressed.png"
+dest_files=["res://.godot/imported/china_pressed.png-a7aff7b052ee541cc82dbf4d0966098d.ctex"]
 
 [params]
 

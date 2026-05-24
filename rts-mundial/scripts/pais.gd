@@ -2,7 +2,7 @@
 extends TextureButton
 
 
-enum paises {ARGENTINA, BRASIL, CHILE, MEXICO, USA, CANADA, EGIPTO, ETIOPIA, SAHARA, SUDAFRICA,ALEMANIA,FRANCIA,INLATERRA,AUSTRALIA,SANMARINO,RUSIA,CHINA}
+enum paises {ARGENTINA, BRASIL, CHILE, MEXICO, USA, CANADA, EGIPTO, ETIOPIA, SAHARA, SUDAFRICA,ALEMANIA,FRANCIA,INGLATERRA,AUSTRALIA,SANMARINO,RUSIA,CHINA, INDIA}
 @export var pais:paises:
 	set(value):
 		pais = value
@@ -58,31 +58,41 @@ func _cargar_texturas():
 			texture_normal = preload("res://assets/africa/sudafrica/sudafrica_default.png")
 			texture_hover = preload("res://assets/africa/sudafrica/sudafrica_hover.png")
 			texture_pressed = preload("res://assets/africa/sudafrica/sudafrica_pressed.png")
+		
+		#EUROPA
 		paises.ALEMANIA:
 			texture_normal = preload("res://assets/europa/alemania/alemania_default.png")
 			texture_hover = preload("res://assets/europa/alemania/alemania_Hover.png")
 			texture_pressed = preload("res://assets/europa/alemania/alemania_Pressed.png")
 		paises.FRANCIA:
-					texture_normal = preload("res://assets/europa/francia/francia_default.png")
-					texture_hover = preload("res://assets/europa/francia/francia_hover.png")
-					texture_pressed = preload("res://assets/europa/francia/francia_pressed.png")
-		paises.INLATERRA:
-					texture_normal = preload("res://assets/europa/inglaterra/inglaterra_default.png")
-					texture_hover = preload("res://assets/europa/inglaterra/inglaterra_hover.png")
-					texture_pressed = preload("res://assets/europa/inglaterra/inglaterra_pressed.png")
+			texture_normal = preload("res://assets/europa/francia/francia_default.png")
+			texture_hover = preload("res://assets/europa/francia/francia_hover.png")
+			texture_pressed = preload("res://assets/europa/francia/francia_pressed.png")
+		paises.INGLATERRA:
+			texture_normal = preload("res://assets/europa/inglaterra/inglaterra_default.png")
+			texture_hover = preload("res://assets/europa/inglaterra/inglaterra_hover.png")
+			texture_pressed = preload("res://assets/europa/inglaterra/inglaterra_pressed.png")
+		
+		#OCEANIA
 		paises.AUSTRALIA:
 			texture_normal = preload("res://assets/oceania/Australia/australia_default.png")
-			texture_hover = preload("res://assets/oceania/Australia/australiaHover.png")
-			texture_pressed = preload("res://assets/oceania/Australia/australiaSelect.png")
+			texture_hover = preload("res://assets/oceania/Australia/australia_hover.png")
+			texture_pressed = preload("res://assets/oceania/Australia/australia_pressed.png")
 		paises.SANMARINO:
 			texture_normal = preload("res://assets/oceania/SanMarino/sanmarino_default.png")
-			texture_hover = preload("res://assets/oceania/SanMarino/sanMarinoHover.png")
-			texture_pressed = preload("res://assets/oceania/SanMarino/sanMarinoSelect.png")
+			texture_hover = preload("res://assets/oceania/SanMarino/sanmarino_hover.png")
+			texture_pressed = preload("res://assets/oceania/SanMarino/sanmarino_pressed.png")
+			
+		#ASIA
 		paises.RUSIA:
-					texture_normal = preload("res://assets/asia/Rusia/Rusia_default.png")
-					texture_hover = preload("res://assets/asia/Rusia/RusiaHover.png")
-					texture_pressed = preload("res://assets/asia/Rusia/RusiaPressed.png")
+			texture_normal = preload("res://assets/asia/Rusia/rusia_default.png")
+			texture_hover = preload("res://assets/asia/Rusia/rusia_hover.png")
+			texture_pressed = preload("res://assets/asia/Rusia/rusia_pressed.png")
 		paises.CHINA:
 			texture_normal = preload("res://assets/asia/China/china_default.png")
-			texture_hover = preload("res://assets/asia/China/ChinaHover.png")
-			texture_pressed = preload("res://assets/asia/China/ChinaPressed.png")
+			texture_hover = preload("res://assets/asia/China/china_hover.png")
+			texture_pressed = preload("res://assets/asia/China/china_pressed.png")
+		paises.INDIA:
+			texture_normal = preload("res://assets/asia/India/india_default.png")
+			texture_hover = preload("res://assets/asia/India/india_hover.png")
+			texture_pressed = preload("res://assets/asia/India/india_pressed.png")

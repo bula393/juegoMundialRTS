@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b783jue61cmna"
-path="res://.godot/imported/sanMarinoSelect.png-6a3c8c401abd58c904b4feba339176e5.ctex"
+uid="uid://dgf4akw7ocf8"
+path="res://.godot/imported/rusia_pressed.png-795965bcab97d70112e76584896a3968.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/oceania/SanMarino/sanMarinoSelect.png"
-dest_files=["res://.godot/imported/sanMarinoSelect.png-6a3c8c401abd58c904b4feba339176e5.ctex"]
+source_file="res://assets/asia/Rusia/rusia_pressed.png"
+dest_files=["res://.godot/imported/rusia_pressed.png-795965bcab97d70112e76584896a3968.ctex"]
 
 [params]
 
