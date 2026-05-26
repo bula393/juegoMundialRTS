@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://e1ms1771pjbd"]
+
+[ext_resource type="Script" uid="uid://4rt44cb5ox3g" path="res://scripts/menu_pais.gd" id="1_uv0ks"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cfhcf"]
+bg_color = Color(0.08967524, 0.41878405, 0.20692834, 1)
+
+[node name="menuPais" type="Control" unique_id=34050247]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_uv0ks")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=142747944]
+layout_mode = 0
+offset_right = 130.0
+offset_bottom = 648.0
+color = Color(0.17044121, 0.17044121, 0.17044118, 1)
+
+[node name="Label" type="Label" parent="ColorRect" unique_id=1406841501]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 23.0
+offset_right = 96.0
+offset_bottom = 37.0
+theme_override_font_sizes/font_size = 10
+text = "NombrePais"
+
+[node name="Label2" type="Label" parent="ColorRect" unique_id=391538769]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 51.0
+offset_right = 78.0
+offset_bottom = 62.0
+theme_override_font_sizes/font_size = 7
+text = "Unidades terrestre: "
+
+[node name="Label3" type="Label" parent="ColorRect" unique_id=6638487]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 62.0
+offset_right = 78.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 7
+text = "Unidades aereas: "
+
+[node name="Label4" type="Label" parent="ColorRect" unique_id=1567250934]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 73.0
+offset_right = 78.0
+offset_bottom = 84.0
+theme_override_font_sizes/font_size = 7
+text = "Unidades maritimas: "
+
+[node name="Label5" type="Label" parent="ColorRect" unique_id=875054850]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 92.0
+offset_right = 78.0
+offset_bottom = 103.0
+theme_override_font_sizes/font_size = 7
+text = "Construcciones: "
+
+[node name="Button" type="Button" parent="ColorRect" unique_id=1450604632]
+layout_mode = 0
+offset_left = 37.0
+offset_top = 117.0
+offset_right = 91.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 10
+theme_override_styles/normal = SubResource("StyleBoxFlat_cfhcf")
+text = "Construir"

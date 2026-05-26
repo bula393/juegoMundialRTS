@@ -85,7 +85,7 @@ func _cargar_texturas():
 			
 		#ASIA
 		paises.RUSIA:
-			texture_normal = preload("res://assets/asia/Rusia/rusia_default.png")
+			texture_normal = preload("res://assets/asia/Rusia/Rusia_default.png")
 			texture_hover = preload("res://assets/asia/Rusia/rusia_hover.png")
 			texture_pressed = preload("res://assets/asia/Rusia/rusia_pressed.png")
 		paises.CHINA:
