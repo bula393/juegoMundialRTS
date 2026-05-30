@@ -23,3 +23,5 @@ func territorioPresionado(territorio: TextureButton) -> void:
 func seleccionar_todos(estado: bool) -> void:
 	for territorio in territoriosPropios:
 		territorio.set_pressed_no_signal(estado)
+		
+	
