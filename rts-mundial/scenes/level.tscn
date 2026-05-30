@@ -57,6 +57,7 @@
 [ext_resource type="Texture2D" uid="uid://pf4lnjkdreaj" path="res://assets/asia/India/india_pressed.png" id="39_30hdq"]
 [ext_resource type="Texture2D" uid="uid://ck5xv6n000n6m" path="res://assets/asia/India/india_hover.png" id="40_3fqns"]
 [ext_resource type="Texture2D" uid="uid://djxbfsvl8l2cw" path="res://assets/asia/India/india_default.png" id="50_bhb1k"]
+[ext_resource type="PackedScene" uid="uid://e1ms1771pjbd" path="res://scenes/menuPais.tscn" id="58_sc620"]
 
 [node name="Level" type="Node2D" unique_id=201191576]
 
@@ -314,3 +315,8 @@ texture_hover = ExtResource("27_v3why")
 stretch_mode = 3
 script = ExtResource("6_4h8xp")
 pais = 6
+
+[node name="menuPais" parent="." unique_id=34050247 instance=ExtResource("58_sc620")]
+visible = false
+offset_left = 1021.0
+offset_right = 1021.0
