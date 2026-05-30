@@ -10,6 +10,9 @@ var tropasTerrestres = 0
 var tropasMaritimas = 0
 var	tropasAerias= 0
 
+
+
+
 func crear(boton_territorio: TextureButton) -> void:
 	nombrePais = boton_territorio.name
 	agregaTerritorio(boton_territorio)

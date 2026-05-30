@@ -7,6 +7,7 @@ func _ready() -> void:
 	for pais in get_children():
 		var p : PaisJugable = PaisJugable.new()
 		p.crear(pais)
+		p.menu_pais = menu_pais
 		paisesJugable.append(p)
 
 	
