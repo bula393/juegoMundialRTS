@@ -9,6 +9,10 @@ var tropasProducidas
 var tiempoEnfriamiento
 
 
+
+func puedeConstruirse(madera: int,metal: int, petrolio : int) -> bool:
+	return madera>=maderaNecesaria and metal>=metalNecesaria and petrolio>=petrolioNecesaria
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.

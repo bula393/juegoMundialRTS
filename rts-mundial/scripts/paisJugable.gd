@@ -47,3 +47,5 @@ func seleccionar_todos(estado: bool) -> void:
 		territorio.set_pressed_no_signal(estado)
 		
 	
+	
+func
