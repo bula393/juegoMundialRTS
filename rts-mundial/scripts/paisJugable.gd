@@ -1,16 +1,16 @@
+
 extends Node
 class_name PaisJugable
-
-@export var menu_pais: MenuPais
 var nombrePais
 var territoriosPropios := []
-var	construccionesHechas := []
-var construccionesEnProceso := []
+var	construccionesHechas : Array[Construccion] = []
+@export var menu_pais: Node
+var construccionesEnProceso :Array[Construccion] = []
 var tropasTerrestres = 0
 var tropasMaritimas = 0
 var	tropasAerias = 0
 var madera = 0
-var hierro = 0
+var metal = 0
 var petroleo = 0
 var generacionMadera = 100
 var generacionHierro = 100
@@ -48,4 +48,16 @@ func seleccionar_todos(estado: bool) -> void:
 		
 	
 	
-func
+func construir(c : Construccion) -> void:
+	if not c.puedeConstruirse(madera,metal,petroleo):
+		return
+	construccionesEnProceso.append(c)
+	
+func revisarConstruccionesEnProceso() -> void: 
+	for c in construccionesEnProceso:
+		c.tiempoDeConstruccion -1 
+		if c.tiempoEnfriamiento <= 0 :
+			construccionesEnProceso.erase(c)
+			construccionesHechas.append(c)
+		
+		
