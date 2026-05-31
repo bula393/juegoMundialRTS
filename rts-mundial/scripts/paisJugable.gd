@@ -8,7 +8,7 @@ var	construccionesHechas : Array[Construccion] = []
 var construccionesEnProceso :Array[Construccion] = []
 var tropasTerrestres = 0
 var tropasMaritimas = 0
-var	tropasAerias = 0
+var	tropasAereas = 0
 var madera = 0
 var metal = 0
 var petroleo = 0
@@ -51,13 +51,29 @@ func seleccionar_todos(estado: bool) -> void:
 func construir(c : Construccion) -> void:
 	if not c.puedeConstruirse(madera,metal,petroleo):
 		return
+	madera -= c.maderaNecesaria
+	metal -= c.metalNecesaria
+	petroleo -= c.petrolioNecesaria
 	construccionesEnProceso.append(c)
 	
 func revisarConstruccionesEnProceso() -> void: 
 	for c in construccionesEnProceso:
 		c.tiempoDeConstruccion -1 
 		if c.tiempoEnfriamiento <= 0 :
+			
 			construccionesEnProceso.erase(c)
 			construccionesHechas.append(c)
 		
 		
+func generarTropas() -> void:
+	for contruccion in construccionesHechas:
+		if contruccion.puedeProducir():
+			match contruccion.nombre:
+				"cuartel":
+					tropasTerrestres += contruccion.tropasProducidas
+				"baseNaval":
+					tropasMaritimas += contruccion.tropasProducidas
+				"aeródromoMilitar":
+					tropasAereas += contruccion.tropasProducidas
+		else :
+			contruccion.tiempoEnfriamiento -= 1
