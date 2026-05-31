@@ -8,10 +8,13 @@ var	construccionesHechas := []
 var construccionesEnProceso := []
 var tropasTerrestres = 0
 var tropasMaritimas = 0
-var	tropasAerias= 0
-
-
-
+var	tropasAerias = 0
+var madera = 0
+var hierro = 0
+var petroleo = 0
+var generacionMadera = 100
+var generacionHierro = 100
+var generacionPetrolio = 100
 
 func crear(boton_territorio: TextureButton) -> void:
 	nombrePais = boton_territorio.name
@@ -20,6 +23,17 @@ func crear(boton_territorio: TextureButton) -> void:
 func agregaTerritorio(botonTerritorio: TextureButton) -> void:
 	territoriosPropios.append(botonTerritorio)
 	botonTerritorio.pressed.connect(territorioPresionado.bind(botonTerritorio))
+
+func conquistarTerritorio(paisConquistado: PaisJugable) -> void:
+	for botonTerritorio in paisConquistado.territoriosPropios:
+		agregaTerritorio(botonTerritorio)
+	generacionHierro += paisConquistado.generacionHierro
+	generacionMadera += paisConquistado.generacionMadera
+	generacionPetrolio += paisConquistado.generacionPetrolio
+		
+
+func cicloTropas() -> void:
+	pass
 
 func territorioPresionado(territorio: TextureButton) -> void:
 	seleccionar_todos(territorio.button_pressed)
