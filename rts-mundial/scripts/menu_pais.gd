@@ -12,7 +12,7 @@ func mostrar_info(pais: PaisJugable) -> void:
 	jugador.text = "País: " + str(pais.nombrePais)
 	territorios.text = "Territorios: " + str(pais.territoriosPropios.size())
 	tierra.text = "Tropas terrestres: " + str(pais.tropasTerrestres)
-	aire.text = "Tropas aéreas: " + str(pais.tropasAerias)
+	aire.text = "Tropas aéreas: " + str(pais.tropasAereas)
 	mar.text = "Tropas marítimas: " + str(pais.tropasMaritimas)
 	construcciones.text = "Construcciones: " + str(pais.construccionesHechas.size())
 	

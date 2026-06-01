@@ -58,6 +58,7 @@
 [ext_resource type="Texture2D" uid="uid://ck5xv6n000n6m" path="res://assets/asia/India/india_hover.png" id="40_3fqns"]
 [ext_resource type="Texture2D" uid="uid://djxbfsvl8l2cw" path="res://assets/asia/India/india_default.png" id="50_bhb1k"]
 [ext_resource type="PackedScene" uid="uid://e1ms1771pjbd" path="res://scenes/menuPais.tscn" id="58_sc620"]
+[ext_resource type="PackedScene" uid="uid://f26etxahlp0r" path="res://scenes/menuRecursos.tscn" id="59_421lv"]
 
 [node name="Level" type="Node2D" unique_id=201191576]
 
@@ -320,3 +321,12 @@ pais = 6
 visible = false
 offset_left = 1021.0
 offset_right = 1021.0
+
+[node name="menuRecursos" parent="." unique_id=248865847 instance=ExtResource("59_421lv")]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.0
+offset_left = 327.0
+offset_right = 327.0
+grow_vertical = 1
