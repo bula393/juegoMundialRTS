@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Construccion" format=3 uid="uid://cemvpwylc2o7w"]
+
+[ext_resource type="Script" uid="uid://cvwc53pdh86ov" path="res://scripts/construccion.gd" id="1_jn4si"]
+
+[resource]
+script = ExtResource("1_jn4si")
+nombre = "baseNaval"
+tiempoDeConstruccion = 90
+maderaNecesaria = 500
+petrolioNecesaria = 300
+tropasProducidas = 5
+tiempoEnfriamiento = 60
+cantidadtropasAlmacenadas = 15
+metadata/_custom_type_script = "uid://cvwc53pdh86ov"

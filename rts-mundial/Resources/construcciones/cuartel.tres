@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Construccion" format=3 uid="uid://u1sf1tmvwevc"]
+
+[ext_resource type="Script" uid="uid://cvwc53pdh86ov" path="res://scripts/construccion.gd" id="1_w5p41"]
+
+[resource]
+script = ExtResource("1_w5p41")
+nombre = "cuartel"
+tiempoDeConstruccion = 30
+maderaNecesaria = 300
+tropasProducidas = 10
+tiempoEnfriamiento = 20
+cantidadtropasAlmacenadas = 50
+metadata/_custom_type_script = "uid://cvwc53pdh86ov"

@@ -1,13 +1,14 @@
-extends Node
+extends Resource
 class_name Construccion
 
-var nombre
-var tiempoDeConstruccion
-var maderaNecesaria
-var metalNecesaria
-var petrolioNecesaria
-var tropasProducidas
-var tiempoEnfriamiento
+@export var nombre : String
+@export var tiempoDeConstruccion  :int
+@export var maderaNecesaria :int 
+@export var metalNecesaria :int 
+@export var petrolioNecesaria:int
+@export var tropasProducidas :int
+@export var tiempoEnfriamiento :int 
+@export var cantidadtropasAlmacenadas :int 
 
 
 

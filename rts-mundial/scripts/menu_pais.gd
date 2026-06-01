@@ -9,11 +9,12 @@ class_name MenuPais
 @onready var territorios = $ColorRect/territorios
 
 func mostrar_info(pais: PaisJugable) -> void:
+	var listaCap = pais.almacenamientoTotalDisponible()
 	jugador.text = "País: " + str(pais.nombrePais)
 	territorios.text = "Territorios: " + str(pais.territoriosPropios.size())
-	tierra.text = "Tropas terrestres: " + str(pais.tropasTerrestres)
-	aire.text = "Tropas aéreas: " + str(pais.tropasAereas)
-	mar.text = "Tropas marítimas: " + str(pais.tropasMaritimas)
+	tierra.text = "Tropas terrestres: " + str(pais.tropasTerrestres) + "/" + str(listaCap[0])
+	aire.text = "Tropas aéreas: " + str(pais.tropasAereas)+ "/" + str(listaCap[1])
+	mar.text = "Tropas marítimas: " + str(pais.tropasMaritimas)+ "/" + str(listaCap[2])
 	construcciones.text = "Construcciones: " + str(pais.construccionesHechas.size())
 	
 	show()
