@@ -16,8 +16,8 @@ script = ExtResource("1_hemq5")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1105277594]
 layout_mode = 0
-offset_right = 511.0
-offset_bottom = 40.0
+offset_right = 536.55
+offset_bottom = 42.0
 color = Color(0.16862746, 0.16862746, 0.16862746, 1)
 
 [node name="TextureRect" type="TextureRect" parent="ColorRect" unique_id=1957283607]
@@ -25,10 +25,10 @@ layout_mode = 1
 anchors_preset = 4
 anchor_top = 0.5
 anchor_bottom = 0.5
-offset_left = 93.0
-offset_top = -15.0
-offset_right = 122.0
-offset_bottom = 14.0
+offset_left = 91.0
+offset_top = -17.0
+offset_right = 124.0
+offset_bottom = 16.0
 grow_vertical = 2
 texture = ExtResource("1_saekn")
 expand_mode = 1
@@ -39,13 +39,14 @@ offset_left = 125.0
 offset_top = 11.0
 offset_right = 165.0
 offset_bottom = 34.0
-theme_override_font_sizes/font_size = 10
+theme_override_font_sizes/font_size = 12
 
 [node name="TextureRect2" type="TextureRect" parent="ColorRect" unique_id=79338102]
 layout_mode = 0
-offset_left = 222.0
-offset_right = 261.0
-offset_bottom = 39.0
+offset_left = 218.0
+offset_top = -1.0
+offset_right = 260.0
+offset_bottom = 42.0
 texture = ExtResource("2_hemq5")
 expand_mode = 1
 
@@ -55,21 +56,21 @@ offset_left = 262.0
 offset_top = 12.0
 offset_right = 302.0
 offset_bottom = 35.0
-theme_override_font_sizes/font_size = 10
+theme_override_font_sizes/font_size = 12
 
 [node name="TextureRect3" type="TextureRect" parent="ColorRect" unique_id=766835187]
 layout_mode = 0
-offset_left = 368.0
-offset_top = 3.0
+offset_left = 362.0
+offset_top = 2.0
 offset_right = 403.0
-offset_bottom = 38.0
+offset_bottom = 43.0
 texture = ExtResource("3_36ne2")
 expand_mode = 1
 
 [node name="petroleo" type="Label" parent="ColorRect" unique_id=1674887148]
 layout_mode = 0
-offset_left = 400.0
+offset_left = 398.0
 offset_top = 12.0
-offset_right = 440.0
+offset_right = 438.0
 offset_bottom = 35.0
-theme_override_font_sizes/font_size = 10
+theme_override_font_sizes/font_size = 12

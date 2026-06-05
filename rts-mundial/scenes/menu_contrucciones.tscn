@@ -16,25 +16,25 @@ script = ExtResource("1_tpwut")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1212738347]
 layout_mode = 0
-offset_right = 130.0
-offset_bottom = 181.0
+offset_right = 159.0
+offset_bottom = 213.0
 color = Color(0.16862746, 0.16862746, 0.16862746, 1)
 
 [node name="cuartel" type="Label" parent="ColorRect" unique_id=1509360988]
 layout_mode = 1
-offset_left = 9.0
-offset_top = 32.0
-offset_right = 56.0
-offset_bottom = 55.0
-theme_override_font_sizes/font_size = 10
+offset_left = 19.0
+offset_top = 46.0
+offset_right = 66.0
+offset_bottom = 69.0
+theme_override_font_sizes/font_size = 13
 
 [node name="construirCuartel" type="Button" parent="ColorRect" unique_id=357241528]
 layout_mode = 0
-offset_left = 85.0
-offset_top = 32.0
-offset_right = 121.0
-offset_bottom = 49.0
-theme_override_font_sizes/font_size = 8
+offset_left = 86.0
+offset_top = 42.0
+offset_right = 152.0
+offset_bottom = 74.0
+theme_override_font_sizes/font_size = 13
 theme_override_styles/normal = SubResource("StyleBoxFlat_tpwut")
 text = "Construir"
 
@@ -45,39 +45,39 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -55.5
+offset_left = -60.5
 offset_top = -11.5
-offset_right = -8.5
+offset_right = -13.5
 offset_bottom = 11.5
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_font_sizes/font_size = 10
+theme_override_font_sizes/font_size = 13
 
 [node name="construirNaval" type="Button" parent="ColorRect" unique_id=1677004044]
 layout_mode = 0
 offset_left = 85.0
-offset_top = 77.0
-offset_right = 121.0
-offset_bottom = 94.0
-theme_override_font_sizes/font_size = 8
+offset_top = 91.0
+offset_right = 152.0
+offset_bottom = 121.0
+theme_override_font_sizes/font_size = 13
 theme_override_styles/normal = SubResource("StyleBoxFlat_tpwut")
 text = "Construir"
 
 [node name="aerodromoMilitar" type="Label" parent="ColorRect" unique_id=1736083584]
 layout_mode = 0
-offset_left = 9.0
-offset_top = 123.0
-offset_right = 102.0
-offset_bottom = 155.0
-theme_override_font_sizes/font_size = 10
+offset_left = 19.0
+offset_top = 148.0
+offset_right = 112.0
+offset_bottom = 180.0
+theme_override_font_sizes/font_size = 13
 
 [node name="construirAero" type="Button" parent="ColorRect" unique_id=452732293]
 layout_mode = 0
 offset_left = 85.0
-offset_top = 122.0
-offset_right = 121.0
-offset_bottom = 139.0
-theme_override_font_sizes/font_size = 8
+offset_top = 144.0
+offset_right = 152.0
+offset_bottom = 173.0
+theme_override_font_sizes/font_size = 13
 theme_override_styles/normal = SubResource("StyleBoxFlat_tpwut")
 text = "Construir"
 

@@ -320,8 +320,8 @@ pais = 6
 
 [node name="menuPais" parent="." unique_id=34050247 node_paths=PackedStringArray("menu_construcciones") instance=ExtResource("58_sc620")]
 visible = false
-offset_left = 1021.0
-offset_right = 1021.0
+offset_left = 992.0
+offset_right = 992.0
 menu_construcciones = NodePath("../menuContrucciones")
 
 [node name="menuRecursos" parent="." unique_id=248865847 instance=ExtResource("59_421lv")]
@@ -338,10 +338,10 @@ visible = false
 anchors_preset = 1
 anchor_left = 1.0
 anchor_bottom = 0.0
-offset_left = 1021.0
-offset_top = 181.0
-offset_right = 1021.0
-offset_bottom = 181.0
+offset_left = 993.0
+offset_top = 231.0
+offset_right = 993.0
+offset_bottom = 231.0
 grow_horizontal = 0
 grow_vertical = 1
 
