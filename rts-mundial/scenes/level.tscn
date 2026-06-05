@@ -330,3 +330,27 @@ anchor_bottom = 0.0
 offset_left = 327.0
 offset_right = 327.0
 grow_vertical = 1
+
+[node name="Label" type="Label" parent="." unique_id=927760842]
+offset_left = 515.0
+offset_top = 589.0
+offset_right = 617.0
+offset_bottom = 612.0
+
+[node name="Button" type="Button" parent="." unique_id=1418759945]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 508.1865
+offset_top = 550.75
+offset_right = 635.1865
+offset_bottom = 581.75
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+text = "Terminar turno"
+
+[connection signal="pressed" from="Button" to="Mapa" method="_on_button_pressed"]

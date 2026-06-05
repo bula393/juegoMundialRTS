@@ -59,9 +59,16 @@ func sortiarPaisesRestantes() -> void:
 
 
 func iniciarTurno() -> void:
+	get_parent().get_node("Label").text = paisTurnoActual.nombrePais
 	paisTurnoActual.iniciarTurno()
 	
 
 func finalizarTurno() -> void:
-	paisTurnoActual = paisesJugable[paisesJugable.find(paisTurnoActual)+1]
+	paisTurnoActual = paisesJugable[(paisesJugable.find(paisTurnoActual)+1)%paisesJugable.size()]
 	iniciarTurno()
+
+
+
+
+func _on_button_pressed() -> void:
+	finalizarTurno()

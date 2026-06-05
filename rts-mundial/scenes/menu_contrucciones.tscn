@@ -1,0 +1,85 @@
+[gd_scene format=3 uid="uid://ijabixij1mqr"]
+
+[ext_resource type="Script" uid="uid://c17vr5h63mslm" path="res://scenes/menu_contrucciones.gd" id="1_tpwut"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tpwut"]
+bg_color = Color(0.09019608, 0.41960785, 0.20784314, 1)
+
+[node name="menuContrucciones" type="Control" unique_id=809517712]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tpwut")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1212738347]
+layout_mode = 0
+offset_right = 130.0
+offset_bottom = 181.0
+color = Color(0.16862746, 0.16862746, 0.16862746, 1)
+
+[node name="cuartel" type="Label" parent="ColorRect" unique_id=1509360988]
+layout_mode = 1
+offset_left = 9.0
+offset_top = 32.0
+offset_right = 56.0
+offset_bottom = 55.0
+theme_override_font_sizes/font_size = 10
+text = "AAAAAAA"
+
+[node name="construir" type="Button" parent="ColorRect" unique_id=357241528]
+layout_mode = 0
+offset_left = 85.0
+offset_top = 32.0
+offset_right = 121.0
+offset_bottom = 49.0
+theme_override_font_sizes/font_size = 6
+theme_override_styles/normal = SubResource("StyleBoxFlat_tpwut")
+text = "Construir"
+
+[node name="baseNaval" type="Label" parent="ColorRect" unique_id=2117841985]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -55.5
+offset_top = -11.5
+offset_right = -8.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 10
+text = "AAAAAAA"
+
+[node name="construir2" type="Button" parent="ColorRect" unique_id=1677004044]
+layout_mode = 0
+offset_left = 85.0
+offset_top = 77.0
+offset_right = 121.0
+offset_bottom = 94.0
+theme_override_font_sizes/font_size = 6
+theme_override_styles/normal = SubResource("StyleBoxFlat_tpwut")
+text = "Construir"
+
+[node name="aerodromoMilitar" type="Label" parent="ColorRect" unique_id=1736083584]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 123.0
+offset_right = 56.0
+offset_bottom = 146.0
+theme_override_font_sizes/font_size = 10
+text = "AAAAAAA"
+
+[node name="construir3" type="Button" parent="ColorRect" unique_id=452732293]
+layout_mode = 0
+offset_left = 85.0
+offset_top = 122.0
+offset_right = 121.0
+offset_bottom = 139.0
+theme_override_font_sizes/font_size = 6
+theme_override_styles/normal = SubResource("StyleBoxFlat_tpwut")
+text = "Construir"
