@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ijabixij1mqr"]
 
-[ext_resource type="Script" uid="uid://c17vr5h63mslm" path="res://scenes/menu_contrucciones.gd" id="1_tpwut"]
+[ext_resource type="Script" uid="uid://c17vr5h63mslm" path="res://scripts/menu_contrucciones.gd" id="1_tpwut"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tpwut"]
 bg_color = Color(0.09019608, 0.41960785, 0.20784314, 1)
@@ -27,15 +27,14 @@ offset_top = 32.0
 offset_right = 56.0
 offset_bottom = 55.0
 theme_override_font_sizes/font_size = 10
-text = "AAAAAAA"
 
-[node name="construir" type="Button" parent="ColorRect" unique_id=357241528]
+[node name="construirCuartel" type="Button" parent="ColorRect" unique_id=357241528]
 layout_mode = 0
 offset_left = 85.0
 offset_top = 32.0
 offset_right = 121.0
 offset_bottom = 49.0
-theme_override_font_sizes/font_size = 6
+theme_override_font_sizes/font_size = 8
 theme_override_styles/normal = SubResource("StyleBoxFlat_tpwut")
 text = "Construir"
 
@@ -53,15 +52,14 @@ offset_bottom = 11.5
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 10
-text = "AAAAAAA"
 
-[node name="construir2" type="Button" parent="ColorRect" unique_id=1677004044]
+[node name="construirNaval" type="Button" parent="ColorRect" unique_id=1677004044]
 layout_mode = 0
 offset_left = 85.0
 offset_top = 77.0
 offset_right = 121.0
 offset_bottom = 94.0
-theme_override_font_sizes/font_size = 6
+theme_override_font_sizes/font_size = 8
 theme_override_styles/normal = SubResource("StyleBoxFlat_tpwut")
 text = "Construir"
 
@@ -69,17 +67,20 @@ text = "Construir"
 layout_mode = 0
 offset_left = 9.0
 offset_top = 123.0
-offset_right = 56.0
-offset_bottom = 146.0
+offset_right = 102.0
+offset_bottom = 155.0
 theme_override_font_sizes/font_size = 10
-text = "AAAAAAA"
 
-[node name="construir3" type="Button" parent="ColorRect" unique_id=452732293]
+[node name="construirAero" type="Button" parent="ColorRect" unique_id=452732293]
 layout_mode = 0
 offset_left = 85.0
 offset_top = 122.0
 offset_right = 121.0
 offset_bottom = 139.0
-theme_override_font_sizes/font_size = 6
+theme_override_font_sizes/font_size = 8
 theme_override_styles/normal = SubResource("StyleBoxFlat_tpwut")
 text = "Construir"
+
+[connection signal="pressed" from="ColorRect/construirCuartel" to="." method="_on_construir_cuartel_pressed"]
+[connection signal="pressed" from="ColorRect/construirNaval" to="." method="_on_construir_naval_pressed"]
+[connection signal="pressed" from="ColorRect/construirAero" to="." method="_on_construir_aero_pressed"]

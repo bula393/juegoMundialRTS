@@ -69,7 +69,7 @@ offset_right = 78.0
 offset_bottom = 111.0
 theme_override_font_sizes/font_size = 7
 
-[node name="Button" type="Button" parent="ColorRect" unique_id=1450604632]
+[node name="Construir" type="Button" parent="ColorRect" unique_id=1450604632]
 layout_mode = 0
 offset_left = 37.0
 offset_top = 125.0
@@ -78,3 +78,5 @@ offset_bottom = 147.0
 theme_override_font_sizes/font_size = 10
 theme_override_styles/normal = SubResource("StyleBoxFlat_cfhcf")
 text = "Construir"
+
+[connection signal="pressed" from="ColorRect/Construir" to="." method="_on_construir_pressed"]

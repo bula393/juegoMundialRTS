@@ -59,7 +59,7 @@ func seleccionar_todos(estado: bool) -> void:
 func construir(c : Construccion) -> void:
 	if not c.puedeConstruirse(madera,metal,petroleo):
 		return
-	madera -= c.maderaNecesariacuartel
+	madera -= c.maderaNecesaria
 	metal -= c.metalNecesaria
 	petroleo -= c.petrolioNecesaria
 	construccionesEnProceso.append(c)

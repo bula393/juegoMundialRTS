@@ -60,6 +60,7 @@ func sortiarPaisesRestantes() -> void:
 
 func iniciarTurno() -> void:
 	get_parent().get_node("Label").text = paisTurnoActual.nombrePais
+	get_parent().get_node("menuRecursos").cambio_turno(paisTurnoActual.madera, paisTurnoActual.metal, paisTurnoActual.petroleo)
 	paisTurnoActual.iniciarTurno()
 	
 
