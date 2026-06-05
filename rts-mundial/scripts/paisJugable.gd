@@ -65,9 +65,9 @@ func construir(c : Construccion) -> void:
 	construccionesEnProceso.append(c)
 	
 func revisarConstruccionesEnProceso() -> void: 
-	for c in construccionesEnProceso:
-		c.tiempoDeConstruccion -1 
-		if c.tiempoEnfriamiento <= 0 :
+	for c in construccionesEnProceso:		
+		c.tiempoDeConstruccion -= 1
+		if c.tiempoDeConstruccion == 0 :
 			construccionesEnProceso.erase(c)
 			construccionesHechas.append(c)
 		
