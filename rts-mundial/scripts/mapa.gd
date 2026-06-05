@@ -6,8 +6,11 @@ var paisesSeleccionados = ["ARGENTINA","MEXICO","SUDAFRICA"]
 
 var paisesAsortiar = []
 
+var  paisTurnoActual : PaisJugable
 
-	
+
+
+var GANADOR = null
 
 
 @onready var menu_pais = $"../menuPais"
@@ -17,6 +20,8 @@ var paisesJugable:Array[PaisJugable] = []
 func _ready() -> void:
 	armarPaisesJugables()
 	sortiarPaisesRestantes()
+	paisTurnoActual = paisesJugable[0]
+	iniciarTurno()
 		
 		
 
@@ -50,3 +55,13 @@ func sortiarPaisesRestantes() -> void:
 			var paisAgregado = paisesAsortiar.pick_random()
 			pais.agregaTerritorio(paisAgregado)
 			paisesAsortiar.erase(paisAgregado)
+
+
+
+func iniciarTurno() -> void:
+	paisTurnoActual.iniciarTurno()
+	
+
+func finalizarTurno() -> void:
+	paisTurnoActual = paisesJugable[paisesJugable.find(paisTurnoActual)+1]
+	iniciarTurno()

@@ -27,16 +27,21 @@ func agregaTerritorio(botonTerritorio: TextureButton) -> void:
 	territoriosPropios.append(botonTerritorio)
 	botonTerritorio.pressed.connect(territorioPresionado.bind(botonTerritorio))
 
+func iniciarTurno() -> void:
+	revisarConstruccionesEnProceso()
+	generarTropas()
+	generarRecursos()
+
+func generarRecursos() -> void:
+	madera += generacionMadera * territoriosPropios.size()
+	metal += generacionHierro * territoriosPropios.size()
+	petroleo += generacionPetrolio * territoriosPropios.size()
+
 func conquistarTerritorio(paisConquistado: PaisJugable) -> void:
 	for botonTerritorio in paisConquistado.territoriosPropios:
 		agregaTerritorio(botonTerritorio)
-	generacionHierro += paisConquistado.generacionHierro
-	generacionMadera += paisConquistado.generacionMadera
-	generacionPetrolio += paisConquistado.generacionPetrolio
-		
 
-func cicloTropas() -> void:
-	pass
+		
 
 func territorioPresionado(territorio: TextureButton) -> void:
 	seleccionar_todos(territorio.button_pressed)
