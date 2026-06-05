@@ -319,6 +319,7 @@ script = ExtResource("6_4h8xp")
 pais = 6
 
 [node name="menuPais" parent="." unique_id=34050247 node_paths=PackedStringArray("menu_construcciones") instance=ExtResource("58_sc620")]
+visible = false
 offset_left = 1021.0
 offset_right = 1021.0
 menu_construcciones = NodePath("../menuContrucciones")
