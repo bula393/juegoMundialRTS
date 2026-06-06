@@ -1,11 +1,8 @@
 extends Node2D
 
 enum paises {ARGENTINA, BRASIL, CHILE, MEXICO, USA, CANADA, EGIPTO, ETIOPIA, SAHARA, SUDAFRICA,ALEMANIA,FRANCIA,INGLATERRA,AUSTRALIA,SANMARINO,RUSIA,CHINA, INDIA}
-
-var paisesSeleccionados = ["ARGENTINA","MEXICO","SUDAFRICA"]
-
+var paisesSeleccionados = Global.paisesSeleccionados
 var paisesAsortiar = []
-
 var  paisTurnoActual : PaisJugable
 
 
