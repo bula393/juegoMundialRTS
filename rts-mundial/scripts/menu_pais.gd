@@ -8,7 +8,7 @@ class_name MenuPais
 @onready var construcciones = $ColorRect/construcciones
 @onready var territorios = $ColorRect/territorios
 @export var menu_construcciones: Control
-var paisJugable
+var paisJugable : PaisJugable
 func mostrar_info(pais: PaisJugable) -> void:
 	var listaCap = pais.almacenamientoTotalDisponible()
 	jugador.text = "País: " + str(pais.nombrePais)
@@ -17,6 +17,14 @@ func mostrar_info(pais: PaisJugable) -> void:
 	aire.text = "Tropas aéreas: " + str(pais.tropasAereas)+ "/" + str(listaCap[1])
 	mar.text = "Tropas marítimas: " + str(pais.tropasMaritimas)+ "/" + str(listaCap[2])
 	construcciones.text = "Construcciones: " + str(pais.construccionesHechas.size())
+	
+	if pais.soyPaisActual:
+		$ColorRect/Construir.text = "Construir"
+		$ColorRect/Construir.modulate = Color.GREEN
+	else :
+		$ColorRect/Construir.text = "Atacar"	
+		$ColorRect/Construir.modulate = Color.RED
+	
 	
 	paisJugable = pais
 	
@@ -30,7 +38,8 @@ func ocultar() -> void:
 
 
 func _on_construir_pressed() -> void:
-	if menu_construcciones.visible: #.visible es como un show() pero como es booleano sirve para los if -Liras :D
-		menu_construcciones.ocultar()
-	else:
-		menu_construcciones.construir(paisJugable)
+	if paisJugable.soyPaisActual:
+		if menu_construcciones.visible: #.visible es como un show() pero como es booleano sirve para los if -Liras :D
+			menu_construcciones.ocultar()
+		else:
+			menu_construcciones.construir(paisJugable)

@@ -15,6 +15,9 @@ var petroleo = 0
 var generacionMadera = 100
 var generacionHierro = 100
 var generacionPetrolio = 100
+var soyPaisActual = false
+
+
 var aeródromoMilitar = preload("res://Resources/construcciones/aeródromoMilitar.tres")
 var baseNaval = preload("res://Resources/construcciones/baseNaval.tres")
 var cuartel = preload("res://Resources/construcciones/cuartel.tres")
@@ -26,6 +29,9 @@ func crear(boton_territorio: TextureButton) -> void:
 func agregaTerritorio(botonTerritorio: TextureButton) -> void:
 	territoriosPropios.append(botonTerritorio)
 	botonTerritorio.pressed.connect(territorioPresionado.bind(botonTerritorio))
+
+func cambiarTurno() -> void:
+	soyPaisActual = !soyPaisActual
 
 func iniciarTurno() -> void:
 	revisarConstruccionesEnProceso()
