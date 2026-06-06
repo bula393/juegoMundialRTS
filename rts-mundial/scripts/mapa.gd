@@ -34,6 +34,7 @@ func _process(delta: float) -> void:
 
 
 func armarPaisesJugables() -> void:
+	var menu_recursos = get_parent().get_node("menuRecursos")
 	for pais in get_children():
 		var estaSelecciona = false
 		for p in paisesSeleccionados:
@@ -43,6 +44,7 @@ func armarPaisesJugables() -> void:
 			var p : PaisJugable = PaisJugable.new()
 			p.crear(pais)
 			p.menu_pais = menu_pais
+			p.menuRecuros = menu_recursos
 			paisesJugable.append(p)
 		else:
 			paisesAsortiar.append(pais)
@@ -60,13 +62,16 @@ func sortiarPaisesRestantes() -> void:
 
 func iniciarTurno() -> void:
 	get_parent().get_node("Label").text = paisTurnoActual.nombrePais
-	get_parent().get_node("menuRecursos").cambio_turno(paisTurnoActual.madera, paisTurnoActual.metal, paisTurnoActual.petroleo)
+	paisTurnoActual.establecerRecursosActuales()
 	paisTurnoActual.cambiarTurno()
 	paisTurnoActual.iniciarTurno()
 	
 
 func finalizarTurno() -> void:
 	paisTurnoActual.cambiarTurno()
+	for  p in paisesJugable:
+		p.seleccionar_todos(false)
+	menu_pais.ocultar()
 	paisTurnoActual = paisesJugable[(paisesJugable.find(paisTurnoActual)+1)%paisesJugable.size()]
 	iniciarTurno()
 

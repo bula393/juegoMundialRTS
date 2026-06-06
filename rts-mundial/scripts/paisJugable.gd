@@ -4,7 +4,8 @@ class_name PaisJugable
 var nombrePais
 var territoriosPropios := []
 var	construccionesHechas : Array[Construccion] = []
-@export var menu_pais: Node
+var menu_pais
+@export var menuRecuros : Node 
 var construccionesEnProceso :Array[Construccion] = []
 var tropasTerrestres = 0
 var tropasMaritimas = 0
@@ -16,7 +17,6 @@ var generacionMadera = 100
 var generacionHierro = 100
 var generacionPetrolio = 100
 var soyPaisActual = false
-
 
 var aeródromoMilitar = preload("res://Resources/construcciones/aeródromoMilitar.tres")
 var baseNaval = preload("res://Resources/construcciones/baseNaval.tres")
@@ -69,7 +69,11 @@ func construir(c : Construccion) -> void:
 	metal -= c.metalNecesaria
 	petroleo -= c.petrolioNecesaria
 	construccionesEnProceso.append(c)
+	establecerRecursosActuales()
 	
+func establecerRecursosActuales() -> void:
+	menuRecuros.cambio_turno(madera, metal, petroleo)	
+
 func revisarConstruccionesEnProceso() -> void: 
 	for c in construccionesEnProceso:		
 		c.tiempoDeConstruccion -= 1
