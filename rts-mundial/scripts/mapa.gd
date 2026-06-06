@@ -54,6 +54,9 @@ func sortiarPaisesRestantes() -> void:
 			var paisAgregado = paisesAsortiar.pick_random()
 			pais.agregaTerritorio(paisAgregado)
 			paisesAsortiar.erase(paisAgregado)
+	for i in range(paisesAsortiar.size()):
+		paisesJugable[i].agregaTerritorio(paisesAsortiar[i])
+
 
 
 
