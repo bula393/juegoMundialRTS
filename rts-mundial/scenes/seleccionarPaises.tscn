@@ -1,6 +1,78 @@
 [gd_scene format=3 uid="uid://lpi8e8ilyxs8"]
 
 [ext_resource type="Script" uid="uid://bph6vb28sko8e" path="res://scripts/seleccionar_paises.gd" id="1_cc5q1"]
+[ext_resource type="Texture2D" uid="uid://dwkef4q2yx0xs" path="res://assets/asset_banderas/banderaRusia.webp" id="2_6y6n4"]
+[ext_resource type="Texture2D" uid="uid://bo4wwmydtc28b" path="res://assets/asset_banderas/banderaEgipto.webp" id="2_07yk2"]
+[ext_resource type="Texture2D" uid="uid://dc4cgns6jm6nq" path="res://assets/asset_banderas/banderaSahara.webp" id="2_ie4ml"]
+[ext_resource type="Texture2D" uid="uid://ddvhyvgtg4um2" path="res://assets/asset_banderas/banderaArgentina.webp" id="2_nlh47"]
+[ext_resource type="Texture2D" uid="uid://duh130fk0nr01" path="res://assets/asset_banderas/banderaAustralia.webp" id="2_nv17g"]
+[ext_resource type="Texture2D" uid="uid://dv0plwpbqo8bn" path="res://assets/asset_banderas/banderaAlemania.webp" id="3_hg3aj"]
+[ext_resource type="Texture2D" uid="uid://dc1jt5qnrekc" path="res://assets/asset_banderas/banderaBrasil.webp" id="3_jo50r"]
+[ext_resource type="Texture2D" uid="uid://iht2qm3t24t0" path="res://assets/asset_banderas/banderaChile.webp" id="4_2j1fm"]
+[ext_resource type="Texture2D" uid="uid://b27y8kgoakrxt" path="res://assets/asset_banderas/banderaSanmarino.webp" id="4_hg3aj"]
+[ext_resource type="Texture2D" uid="uid://ydcpruneodwr" path="res://assets/asset_banderas/banderaSudafrica.webp" id="4_p8b2t"]
+[ext_resource type="Texture2D" uid="uid://cp1mn7ouxccmh" path="res://assets/asset_banderas/banderaMexico.webp" id="5_f1rrm"]
+[ext_resource type="Texture2D" uid="uid://dgw6ee4j228ii" path="res://assets/asset_banderas/banderaChina.webp" id="6_7j8jl"]
+[ext_resource type="Texture2D" uid="uid://dlji3u6673gnu" path="res://assets/asset_banderas/banderaFrancia.webp" id="6_nb3v8"]
+[ext_resource type="Texture2D" uid="uid://dts5hkjrlinas" path="res://assets/asset_banderas/banderaUsa.webp" id="6_xy1mi"]
+[ext_resource type="Texture2D" uid="uid://ckqr1w44vglfm" path="res://assets/asset_banderas/banderaCanada.webp" id="7_7x4l4"]
+[ext_resource type="Texture2D" uid="uid://cmvss7g3gc8an" path="res://assets/asset_banderas/banderaInglaterra.webp" id="7_qlasr"]
+[ext_resource type="Texture2D" uid="uid://wwlvmsnx3eo1" path="res://assets/asset_banderas/banderaEtiopia.webp" id="9_7uo1f"]
+[ext_resource type="Texture2D" uid="uid://b4h3sqbjito6a" path="res://assets/asset_banderas/banderaIndia.webp" id="19_12d82"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4xr1i"]
+texture = ExtResource("2_nlh47")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l2iv7"]
+texture = ExtResource("3_jo50r")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4w82p"]
+texture = ExtResource("4_2j1fm")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_p1ffy"]
+texture = ExtResource("5_f1rrm")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_p1cod"]
+texture = ExtResource("6_xy1mi")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rb6jw"]
+texture = ExtResource("7_7x4l4")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dcfll"]
+texture = ExtResource("2_07yk2")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3lcxx"]
+texture = ExtResource("9_7uo1f")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_af5i0"]
+texture = ExtResource("2_ie4ml")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8d8yy"]
+texture = ExtResource("4_p8b2t")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7j8jl"]
+texture = ExtResource("3_hg3aj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5xj8w"]
+texture = ExtResource("6_nb3v8")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_c1hep"]
+texture = ExtResource("7_qlasr")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tk88p"]
+texture = ExtResource("2_nv17g")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5ubss"]
+texture = ExtResource("4_hg3aj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nv17g"]
+texture = ExtResource("2_6y6n4")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_07yk2"]
+texture = ExtResource("6_7j8jl")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ygi6p"]
+texture = ExtResource("19_12d82")
 
 [node name="SeleccionarPaises" type="Control" unique_id=420149081]
 layout_mode = 3
@@ -12,11 +84,15 @@ grow_vertical = 2
 script = ExtResource("1_cc5q1")
 
 [node name="Label" type="Label" parent="." unique_id=870191568]
-layout_mode = 0
-offset_left = 546.0
-offset_top = 7.0
-offset_right = 586.0
-offset_bottom = 117.0
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_top = 16.0
+offset_right = 20.0
+offset_bottom = 126.0
+grow_horizontal = 2
 theme_override_font_sizes/font_size = 75
 
 [node name="ARGENTINA" type="Button" parent="." unique_id=1164344424]
@@ -26,6 +102,7 @@ offset_top = 474.0
 offset_right = 262.0
 offset_bottom = 570.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_4xr1i")
 
 [node name="BRASIL" type="Button" parent="." unique_id=1371980165]
 layout_mode = 0
@@ -34,6 +111,7 @@ offset_top = 365.0
 offset_right = 263.0
 offset_bottom = 461.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_l2iv7")
 
 [node name="CHILE" type="Button" parent="." unique_id=793552346]
 layout_mode = 0
@@ -42,6 +120,7 @@ offset_top = 364.0
 offset_right = 484.0
 offset_bottom = 460.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_4w82p")
 
 [node name="MEXICO" type="Button" parent="." unique_id=922365125]
 layout_mode = 0
@@ -50,6 +129,7 @@ offset_top = 473.0
 offset_right = 483.0
 offset_bottom = 569.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_p1ffy")
 
 [node name="USA" type="Button" parent="." unique_id=1314125372]
 layout_mode = 0
@@ -58,6 +138,7 @@ offset_top = 367.0
 offset_right = 690.0
 offset_bottom = 463.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_p1cod")
 
 [node name="CANADA" type="Button" parent="." unique_id=511165833]
 layout_mode = 0
@@ -66,6 +147,7 @@ offset_top = 366.0
 offset_right = 894.0
 offset_bottom = 462.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_rb6jw")
 
 [node name="EGIPTO" type="Button" parent="." unique_id=987931233]
 layout_mode = 0
@@ -74,6 +156,7 @@ offset_top = 255.0
 offset_right = 485.0
 offset_bottom = 351.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_dcfll")
 
 [node name="ETIOPIA" type="Button" parent="." unique_id=1660766231]
 layout_mode = 0
@@ -82,6 +165,7 @@ offset_top = 368.0
 offset_right = 1081.0
 offset_bottom = 464.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_3lcxx")
 
 [node name="SAHARA" type="Button" parent="." unique_id=1206306781]
 layout_mode = 0
@@ -90,6 +174,7 @@ offset_top = 149.0
 offset_right = 692.0
 offset_bottom = 245.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_af5i0")
 
 [node name="SUDAFRICA" type="Button" parent="." unique_id=1734269914]
 layout_mode = 0
@@ -98,6 +183,7 @@ offset_top = 257.0
 offset_right = 895.0
 offset_bottom = 353.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_8d8yy")
 
 [node name="ALEMANIA" type="Button" parent="." unique_id=1635858731]
 layout_mode = 0
@@ -106,6 +192,7 @@ offset_top = 256.0
 offset_right = 264.0
 offset_bottom = 352.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_7j8jl")
 
 [node name="FRANCIA" type="Button" parent="." unique_id=688428704]
 layout_mode = 0
@@ -114,6 +201,7 @@ offset_top = 259.0
 offset_right = 1082.0
 offset_bottom = 355.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_5xj8w")
 
 [node name="INGLATERRA" type="Button" parent="." unique_id=1296839259]
 layout_mode = 0
@@ -122,6 +210,7 @@ offset_top = 258.0
 offset_right = 691.0
 offset_bottom = 354.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_c1hep")
 
 [node name="AUSTRALIA" type="Button" parent="." unique_id=1352088218]
 layout_mode = 0
@@ -130,6 +219,7 @@ offset_top = 146.0
 offset_right = 486.0
 offset_bottom = 242.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_tk88p")
 
 [node name="SANMARINO" type="Button" parent="." unique_id=853063417]
 layout_mode = 0
@@ -138,6 +228,7 @@ offset_top = 148.0
 offset_right = 896.0
 offset_bottom = 244.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_5ubss")
 
 [node name="RUSIA" type="Button" parent="." unique_id=752852321]
 layout_mode = 0
@@ -146,6 +237,7 @@ offset_top = 147.0
 offset_right = 265.0
 offset_bottom = 243.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_nv17g")
 
 [node name="CHINA" type="Button" parent="." unique_id=648569185]
 layout_mode = 0
@@ -154,6 +246,7 @@ offset_top = 150.0
 offset_right = 1083.0
 offset_bottom = 246.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_07yk2")
 
 [node name="INDIA" type="Button" parent="." unique_id=1186032311]
 layout_mode = 0
@@ -162,6 +255,7 @@ offset_top = 476.0
 offset_right = 688.0
 offset_bottom = 572.0
 theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_ygi6p")
 
 [connection signal="pressed" from="ARGENTINA" to="." method="_on_argentina_pressed"]
 [connection signal="pressed" from="BRASIL" to="." method="_on_brasil_pressed"]

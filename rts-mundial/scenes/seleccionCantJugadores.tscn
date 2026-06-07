@@ -2,6 +2,62 @@
 
 [ext_resource type="Script" uid="uid://c1du5x7slkoso" path="res://scripts/seleccion_cant_jugadores.gd" id="1_jp6ya"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jp6ya"]
+bg_color = Color(0.03529412, 0.654902, 0.92941177, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_txo5p"]
+bg_color = Color(0.010167717, 0.53923583, 0.7702895, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ei06u"]
+bg_color = Color(0.03529412, 0.654902, 0.92941177, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pdxy2"]
+bg_color = Color(0.011764706, 0.5411765, 0.76862746, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w14e4"]
+bg_color = Color(0.03529412, 0.654902, 0.92941177, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vu58l"]
+bg_color = Color(0.011764706, 0.5411765, 0.76862746, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_274nq"]
+bg_color = Color(0.03529412, 0.654902, 0.92941177, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7rkyq"]
+bg_color = Color(0.011764706, 0.5411765, 0.76862746, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
 [node name="SeleccionCantJugadores" type="Control" unique_id=1577784787]
 layout_mode = 3
 anchors_preset = 15
@@ -11,6 +67,19 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_jp6ya")
 
+[node name="Label" type="Label" parent="." unique_id=305399982]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -257.5
+offset_top = 48.0
+offset_right = 257.5
+offset_bottom = 90.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 30
+text = "Seleccione la cantidad de jugadores"
+
 [node name="Button5" type="Button" parent="." unique_id=674940008]
 layout_mode = 1
 anchors_preset = 8
@@ -18,13 +87,15 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -256.0
-offset_top = -171.0
-offset_right = -104.0
-offset_bottom = -29.0
+offset_left = -237.0
+offset_top = -168.0
+offset_right = -113.0
+offset_bottom = -44.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_jp6ya")
+theme_override_styles/hover = SubResource("StyleBoxFlat_txo5p")
 text = "3"
 
 [node name="Button6" type="Button" parent="." unique_id=507528694]
@@ -34,13 +105,15 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 138.0
-offset_top = -171.0
-offset_right = 290.0
-offset_bottom = -29.0
+offset_left = 120.0
+offset_top = -168.0
+offset_right = 244.0
+offset_bottom = -44.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_ei06u")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pdxy2")
 text = "4"
 
 [node name="Button7" type="Button" parent="." unique_id=1437118490]
@@ -50,13 +123,15 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -258.0
-offset_top = 59.0
-offset_right = -106.0
-offset_bottom = 201.0
+offset_left = -237.0
+offset_top = 49.0
+offset_right = -113.0
+offset_bottom = 172.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_w14e4")
+theme_override_styles/hover = SubResource("StyleBoxFlat_vu58l")
 text = "5"
 
 [node name="Button8" type="Button" parent="." unique_id=1844270779]
@@ -66,13 +141,15 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 133.0
-offset_top = 63.0
-offset_right = 285.0
-offset_bottom = 205.0
+offset_left = 120.0
+offset_top = 49.0
+offset_right = 244.0
+offset_bottom = 173.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_274nq")
+theme_override_styles/hover = SubResource("StyleBoxFlat_7rkyq")
 text = "6"
 
 [connection signal="pressed" from="Button5" to="." method="_on_button_5_pressed"]
