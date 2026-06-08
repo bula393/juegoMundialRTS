@@ -5,9 +5,9 @@ extends Control
 @onready var aerodromoLabel = $ColorRect/aerodromoMilitar
 
 @export var construcciones = "res://Resources/construcciones/"
-var cuartel = load("res://Resources/construcciones/cuartel.tres") as Construccion
-var baseNaval = load("res://Resources/construcciones/baseNaval.tres") as Construccion
-var aeródromo = load("res://Resources/construcciones/aeródromoMilitar.tres") as Construccion
+var cuartel : Construccion= load("res://Resources/construcciones/cuartel.tres") 
+var baseNaval : Construccion= load("res://Resources/construcciones/baseNaval.tres") 
+var aeródromo : Construccion= load("res://Resources/construcciones/aeródromoMilitar.tres") 
 var paisJugable : PaisJugable
 
 func construir(pais: PaisJugable) -> void:
@@ -26,12 +26,15 @@ func ocultar() -> void:
 	
 
 func _on_construir_cuartel_pressed() -> void:
-	paisJugable.construir(cuartel)
+	var c :Construccion= cuartel.duplicate()
+	paisJugable.construir(c)
 
 func _on_construir_naval_pressed() -> void:
+	var c :Construccion= baseNaval.duplicate()
 	paisJugable.construir(baseNaval)
 	
 
 func _on_construir_aero_pressed() -> void:
+	var c :Construccion= aeródromo.duplicate()
 	paisJugable.construir(aeródromo)
 	

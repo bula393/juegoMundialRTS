@@ -77,7 +77,9 @@ func establecerRecursosActuales() -> void:
 	menuRecuros.actualizar_recursos(madera, metal, petroleo, tropasTerrestres)
 
 func revisarConstruccionesEnProceso() -> void: 
+	
 	for c in construccionesEnProceso:		
+		print(c)
 		c.tiempoDeConstruccion -= 1
 		if c.tiempoDeConstruccion == 0 :
 			construccionesEnProceso.erase(c)
