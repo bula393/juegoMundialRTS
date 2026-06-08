@@ -65,9 +65,6 @@ func _atacar(p):
 	var enemigoTerrestres = p.tropasTerrestres
 	var enemigoMaritimas = p.tropasMaritimas
 	var enemigoAereas = p.tropasAereas
-	var calcRestaTerrestres = 0
-	var calcRestaMaritimas = 0
-	var calcRestaAereas = 0
 	
 	var enemigoFinal = (enemigoTerrestres + enemigoMaritimas * 2 + enemigoAereas * 3)
 	
