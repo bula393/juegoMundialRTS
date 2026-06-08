@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="RTS Mundial"
-run/main_scene="uid://dllkq2ot50gf4"
+run/main_scene="uid://cfod0mmrqq2em"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -24,6 +24,8 @@ Global="*uid://juo5egytjd2u"
 folder_colors={
 "res://Resources/": "blue",
 "res://assets/": "purple",
+"res://assets/asset_banderas/": "red",
+"res://assets/recursos/": "green",
 "res://scenes/": "green",
 "res://scripts/": "red"
 }

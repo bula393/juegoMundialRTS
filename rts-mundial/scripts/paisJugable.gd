@@ -9,7 +9,7 @@ var menu_pais
 var construccionesEnProceso :Array[Construccion] = []
 var tropasTerrestres = 0
 var tropasMaritimas = 0
-var	tropasAereas = 0
+var tropasAereas = 0
 var madera = 0
 var metal = 0
 var petroleo = 0
@@ -34,9 +34,11 @@ func cambiarTurno() -> void:
 	soyPaisActual = !soyPaisActual
 
 func iniciarTurno() -> void:
-	revisarConstruccionesEnProceso()
 	generarTropas()
+	revisarConstruccionesEnProceso()
 	generarRecursos()
+	menuRecuros.actualizar_recursos(madera, metal, petroleo, tropasTerrestres)
+	
 
 func generarRecursos() -> void:
 	madera += generacionMadera * territoriosPropios.size()
@@ -72,7 +74,7 @@ func construir(c : Construccion) -> void:
 	establecerRecursosActuales()
 	
 func establecerRecursosActuales() -> void:
-	menuRecuros.cambio_turno(madera, metal, petroleo)	
+	menuRecuros.actualizar_recursos(madera, metal, petroleo, tropasTerrestres)
 
 func revisarConstruccionesEnProceso() -> void: 
 	for c in construccionesEnProceso:		

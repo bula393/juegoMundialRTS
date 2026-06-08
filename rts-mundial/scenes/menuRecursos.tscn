@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://bpwwy7f57soic" path="res://assets/recursos/wood.png" id="1_saekn"]
 [ext_resource type="Texture2D" uid="uid://xw6p5vbqm1nu" path="res://assets/recursos/iron.png" id="2_hemq5"]
 [ext_resource type="Texture2D" uid="uid://b67p8koxi3aky" path="res://assets/recursos/oil.png" id="3_36ne2"]
+[ext_resource type="Texture2D" uid="uid://ow88khr77fn8" path="res://assets/recursos/soldier.png" id="5_36ne2"]
 
 [node name="menuRecursos" type="Control" unique_id=248865847]
 layout_mode = 3
@@ -16,7 +17,8 @@ script = ExtResource("1_hemq5")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1105277594]
 layout_mode = 0
-offset_right = 536.55
+offset_left = 291.0
+offset_right = 827.55
 offset_bottom = 42.0
 color = Color(0.16862746, 0.16862746, 0.16862746, 1)
 
@@ -73,4 +75,28 @@ offset_left = 398.0
 offset_top = 12.0
 offset_right = 438.0
 offset_bottom = 35.0
+theme_override_font_sizes/font_size = 12
+
+[node name="ColorRect Units" type="ColorRect" parent="." unique_id=1128705136]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 499.0
+offset_right = 157.0
+offset_bottom = 649.0
+color = Color(0.16862746, 0.16862746, 0.16862746, 1)
+
+[node name="TextureRect4" type="TextureRect" parent="ColorRect Units" unique_id=1447407306]
+layout_mode = 0
+offset_top = 5.0
+offset_right = 41.0
+offset_bottom = 46.0
+texture = ExtResource("5_36ne2")
+expand_mode = 1
+
+[node name="soldado" type="Label" parent="ColorRect Units" unique_id=1859102077]
+layout_mode = 0
+offset_left = 45.0
+offset_top = 13.0
+offset_right = 85.0
+offset_bottom = 36.0
 theme_override_font_sizes/font_size = 12

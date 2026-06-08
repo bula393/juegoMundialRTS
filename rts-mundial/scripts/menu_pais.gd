@@ -7,7 +7,13 @@ class_name MenuPais
 @onready var mar = $ColorRect/mar
 @onready var construcciones = $ColorRect/construcciones
 @onready var territorios = $ColorRect/territorios
+@onready var resultado_ataque: ColorRect = $"../resultadoAtaque"
+@onready var ataque_label: Label = $"../resultadoAtaque/ataqueLabel"
+@onready var ataque_label_timer: Timer = $"../resultadoAtaque/ataqueLabelTimer"
+
 @export var menu_construcciones: Control
+
+
 var paisJugable : PaisJugable
 func mostrar_info(pais: PaisJugable) -> void:
 	var listaCap = pais.almacenamientoTotalDisponible()
@@ -43,3 +49,31 @@ func _on_construir_pressed() -> void:
 			menu_construcciones.ocultar()
 		else:
 			menu_construcciones.construir(paisJugable)
+	else:
+		_atacar(paisJugable)
+
+func _atacar(p):
+	var atacante = get_parent().get_node("Mapa").paisTurnoActual
+	var atacanteTerrestres = atacante.tropasTerrestres
+	var atacanteMaritimas = atacante.tropasMaritimas
+	var atacanteAereas = atacante.tropasAereas
+	
+	var atacanteFinal = atacanteTerrestres + atacanteMaritimas * 2 + atacanteAereas * 3 
+	
+	
+	var enemigoTerrestres = p.tropasTerrestres
+	var enemigoMaritimas = p.tropasMaritimas
+	var enemigoAereas = p.tropasAereas
+	
+	var enemigoFinal = (enemigoTerrestres + enemigoMaritimas * 2 + enemigoAereas * 3)
+	if enemigoFinal >= atacanteFinal:
+		ataque_label.text = "ATAQUE FALLIDO"
+	else:
+		ataque_label.text = "ATAQUE EXITOSO"
+	resultado_ataque.show()
+	ataque_label_timer.start()
+	
+
+
+func _on_ataque_label_timer_timeout() -> void:
+	resultado_ataque.hide()

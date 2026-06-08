@@ -1,26 +1,26 @@
 [gd_scene format=3 uid="uid://dllkq2ot50gf4"]
 
 [ext_resource type="Script" uid="uid://2myv1ekwi5cq" path="res://scripts/mapa.gd" id="1_bo6tc"]
-[ext_resource type="Texture2D" uid="uid://tfo6h7vn8p6q" path="res://assets/america/chile/chile_default.png" id="2_klq6b"]
+[ext_resource type="Texture2D" uid="uid://gpa45kdgwvbf" path="res://assets/america/chile/chile_default.png" id="2_klq6b"]
 [ext_resource type="ButtonGroup" uid="uid://crf4qrm0iqufi" path="res://button_group.tres" id="2_sc620"]
-[ext_resource type="Texture2D" uid="uid://d06lbj32tp2v2" path="res://assets/america/argentina/argentina_default.png" id="3_421lv"]
-[ext_resource type="Texture2D" uid="uid://bke2k1i5s0xdr" path="res://assets/america/chile/chile_pressed.png" id="3_b121j"]
-[ext_resource type="Texture2D" uid="uid://byia2wujgk448" path="res://assets/america/chile/chile_hover.png" id="4_8c41q"]
-[ext_resource type="Texture2D" uid="uid://nceudgbvoudj" path="res://assets/america/argentina/argentina_pressed.png" id="4_oksur"]
-[ext_resource type="Texture2D" uid="uid://bsont6mvepm5r" path="res://assets/america/argentina/argentina_hover.png" id="5_jide8"]
+[ext_resource type="Texture2D" uid="uid://0kom2u1xrhqa" path="res://assets/america/argentina/argentina_default.png" id="3_421lv"]
+[ext_resource type="Texture2D" uid="uid://8o4d4gspbk7y" path="res://assets/america/chile/chile_pressed.png" id="3_b121j"]
+[ext_resource type="Texture2D" uid="uid://momychgu4qya" path="res://assets/america/chile/chile_hover.png" id="4_8c41q"]
+[ext_resource type="Texture2D" uid="uid://cue405m8f0egt" path="res://assets/america/argentina/argentina_pressed.png" id="4_oksur"]
+[ext_resource type="Texture2D" uid="uid://c0eai0jn80nwc" path="res://assets/america/argentina/argentina_hover.png" id="5_jide8"]
 [ext_resource type="Texture2D" uid="uid://dc5mlu1p4sdbg" path="res://assets/america/brasil/brasil_default.png" id="5_olg7q"]
 [ext_resource type="Script" uid="uid://fdgfj3ahleb1" path="res://scripts/pais.gd" id="6_4h8xp"]
 [ext_resource type="Texture2D" uid="uid://tgvjwuor15pj" path="res://assets/america/brasil/brasil_pressed.png" id="6_t1rx8"]
 [ext_resource type="Texture2D" uid="uid://5tw4oykd4q05" path="res://assets/america/brasil/brasil_hover.png" id="7_8iemx"]
-[ext_resource type="Texture2D" uid="uid://h36s7jjm1ynp" path="res://assets/america/mexico/mexico_default.png" id="11_arp2o"]
-[ext_resource type="Texture2D" uid="uid://b7kq6ambdx0uu" path="res://assets/america/mexico/mexico_pressed.png" id="12_ux5qa"]
-[ext_resource type="Texture2D" uid="uid://bgainjpcxk3on" path="res://assets/america/mexico/mexico_hover.png" id="13_82cfe"]
-[ext_resource type="Texture2D" uid="uid://dx6rke4ytpuhk" path="res://assets/america/usa/usa_default.png" id="14_gunhw"]
-[ext_resource type="Texture2D" uid="uid://ddujv47okairg" path="res://assets/america/usa/usa_pressed.png" id="15_8gofh"]
-[ext_resource type="Texture2D" uid="uid://b48vxwurta8ty" path="res://assets/america/usa/usa_hover.png" id="16_h6wmr"]
-[ext_resource type="Texture2D" uid="uid://cf30vxu1vfwv1" path="res://assets/america/canada/canada_default.png" id="17_gunhw"]
-[ext_resource type="Texture2D" uid="uid://dnhjrkgn8unov" path="res://assets/america/canada/canada_pressed.png" id="18_8gofh"]
-[ext_resource type="Texture2D" uid="uid://dumet7fgtjgpu" path="res://assets/america/canada/canada_hover.png" id="19_h6wmr"]
+[ext_resource type="Texture2D" uid="uid://cawn2pxoho6i6" path="res://assets/america/mexico/mexico_default.png" id="11_arp2o"]
+[ext_resource type="Texture2D" uid="uid://du77ce68f08ow" path="res://assets/america/mexico/mexico_pressed.png" id="12_ux5qa"]
+[ext_resource type="Texture2D" uid="uid://b6dcsq82m3hly" path="res://assets/america/mexico/mexico_hover.png" id="13_82cfe"]
+[ext_resource type="Texture2D" uid="uid://d3ajswtbb7gb2" path="res://assets/america/usa/usa_default.png" id="14_gunhw"]
+[ext_resource type="Texture2D" uid="uid://c1mtfv8174nnq" path="res://assets/america/usa/usa_pressed.png" id="15_8gofh"]
+[ext_resource type="Texture2D" uid="uid://docwihvhatv7d" path="res://assets/america/usa/usa_hover.png" id="16_h6wmr"]
+[ext_resource type="Texture2D" uid="uid://dcxuphavtix8m" path="res://assets/america/canada/canada_default.png" id="17_gunhw"]
+[ext_resource type="Texture2D" uid="uid://ctn2jgw6f67w8" path="res://assets/america/canada/canada_pressed.png" id="18_8gofh"]
+[ext_resource type="Texture2D" uid="uid://b8c6g5wwhxhed" path="res://assets/america/canada/canada_hover.png" id="19_h6wmr"]
 [ext_resource type="Texture2D" uid="uid://2pfluptdjxv" path="res://assets/europa/francia/francia_default.png" id="20_535f6"]
 [ext_resource type="Texture2D" uid="uid://b28ht6vgqgpm0" path="res://assets/africa/sudafrica/sudafrica_default.png" id="20_kih21"]
 [ext_resource type="Texture2D" uid="uid://bgdbri66hpu0s" path="res://assets/africa/etiopia/etiopia_default.png" id="20_pqd0y"]
@@ -59,7 +59,10 @@
 [ext_resource type="Texture2D" uid="uid://djxbfsvl8l2cw" path="res://assets/asia/India/india_default.png" id="50_bhb1k"]
 [ext_resource type="PackedScene" uid="uid://e1ms1771pjbd" path="res://scenes/menuPais.tscn" id="58_sc620"]
 [ext_resource type="PackedScene" uid="uid://f26etxahlp0r" path="res://scenes/menuRecursos.tscn" id="59_421lv"]
-[ext_resource type="PackedScene" path="res://scenes/menu_contrucciones.tscn" id="60_oksur"]
+[ext_resource type="PackedScene" uid="uid://ijabixij1mqr" path="res://scenes/menu_contrucciones.tscn" id="60_oksur"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_oksur"]
+font_size = 26
 
 [node name="Level" type="Node2D" unique_id=201191576]
 
@@ -329,8 +332,6 @@ anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.0
-offset_left = 327.0
-offset_right = 327.0
 grow_vertical = 1
 
 [node name="menuContrucciones" parent="." unique_id=809517712 instance=ExtResource("60_oksur")]
@@ -367,4 +368,25 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 text = "Terminar turno"
 
+[node name="resultadoAtaque" type="ColorRect" parent="." unique_id=1532317150]
+visible = false
+offset_left = 390.0
+offset_top = 493.0
+offset_right = 750.0
+offset_bottom = 533.0
+color = Color(0.16862746, 0.16862746, 0.16862746, 0.5803922)
+
+[node name="ataqueLabel" type="Label" parent="resultadoAtaque" unique_id=442679434]
+layout_mode = 0
+offset_right = 361.0
+offset_bottom = 41.0
+text = "ATAQUE EXITOSO"
+label_settings = SubResource("LabelSettings_oksur")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ataqueLabelTimer" type="Timer" parent="resultadoAtaque" unique_id=613597671]
+wait_time = 2.0
+
 [connection signal="pressed" from="Button" to="Mapa" method="_on_button_pressed"]
+[connection signal="timeout" from="resultadoAtaque/ataqueLabelTimer" to="menuPais" method="_on_ataque_label_timer_timeout"]
