@@ -323,8 +323,13 @@ pais = 6
 
 [node name="menuPais" parent="." unique_id=34050247 node_paths=PackedStringArray("menu_construcciones") instance=ExtResource("58_sc620")]
 visible = false
+anchors_preset = 1
+anchor_left = 1.0
+anchor_bottom = 0.0
 offset_left = 992.0
 offset_right = 992.0
+grow_horizontal = 0
+grow_vertical = 1
 menu_construcciones = NodePath("../menuContrucciones")
 
 [node name="menuRecursos" parent="." unique_id=248865847 instance=ExtResource("59_421lv")]

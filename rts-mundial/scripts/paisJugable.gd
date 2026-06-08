@@ -18,6 +18,8 @@ var generacionHierro = 100
 var generacionPetrolio = 100
 var soyPaisActual = false
 
+var territorioSeleccionado : TextureButton = null
+
 var aeródromoMilitar = preload("res://Resources/construcciones/aeródromoMilitar.tres")
 var baseNaval = preload("res://Resources/construcciones/baseNaval.tres")
 var cuartel = preload("res://Resources/construcciones/cuartel.tres")
@@ -52,6 +54,12 @@ func conquistarTerritorio(paisConquistado: PaisJugable) -> void:
 		
 
 func territorioPresionado(territorio: TextureButton) -> void:
+	
+	if territorio.button_pressed and territorioSeleccionado == null:
+		territorioSeleccionado = territorio
+	elif not territorio.button_pressed:
+		territorioSeleccionado = null
+		
 	seleccionar_todos(territorio.button_pressed)
 	if territorio.button_pressed:
 		menu_pais.mostrar_info(self)

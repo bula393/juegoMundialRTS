@@ -13,8 +13,9 @@ class_name MenuPais
 
 @export var menu_construcciones: Control
 
-
 var paisJugable : PaisJugable
+
+
 func mostrar_info(pais: PaisJugable) -> void:
 	var listaCap = pais.almacenamientoTotalDisponible()
 	jugador.text = "País: " + str(pais.nombrePais)
@@ -64,11 +65,30 @@ func _atacar(p):
 	var enemigoTerrestres = p.tropasTerrestres
 	var enemigoMaritimas = p.tropasMaritimas
 	var enemigoAereas = p.tropasAereas
+	var calcRestaTerrestres = 0
+	var calcRestaMaritimas = 0
+	var calcRestaAereas = 0
 	
 	var enemigoFinal = (enemigoTerrestres + enemigoMaritimas * 2 + enemigoAereas * 3)
+	
+	
 	if enemigoFinal >= atacanteFinal:
+		atacante.tropasTerrestres -= round(atacanteTerrestres * 0.50)
+		atacante.tropasMaritimas -= round(atacanteMaritimas * 0.50)
+		atacante.tropasAereas -= round(atacanteAereas * 0.50)
+		
 		ataque_label.text = "ATAQUE FALLIDO"
 	else:
+		atacante.tropasTerrestres -= round(atacanteTerrestres * 0.25)
+		atacante.tropasMaritimas -= round(atacanteMaritimas * 0.25)
+		atacante.tropasAereas -= round(atacanteAereas * 0.25)
+		
+		p.tropasTerrestres -= round(enemigoTerrestres * 0.25)
+		p.tropasMaritimas -= round(enemigoMaritimas * 0.25)
+		p.tropasAereas -= round(enemigoAereas * 0.25)
+		
+		p.territoriosPropios.erase(p.territorioSeleccionado)
+		atacante.agregaTerritorio(p.territorioSeleccionado)
 		ataque_label.text = "ATAQUE EXITOSO"
 	resultado_ataque.show()
 	ataque_label_timer.start()
