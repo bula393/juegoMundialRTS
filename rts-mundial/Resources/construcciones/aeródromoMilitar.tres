@@ -1,14 +1,13 @@
 [gd_resource type="Resource" script_class="Construccion" format=3 uid="uid://dof34nktn24jb"]
 
-[ext_resource type="Script" uid="uid://cvwc53pdh86ov" path="res://scripts/construccion.gd" id="1_8ebww"]
+[ext_resource type="Script" path="res://scripts/construccion.gd" id="1_8ebww"]
 
 [resource]
 script = ExtResource("1_8ebww")
 nombre = "aeródromoMilitar"
-tiempoDeConstruccion = 120
+tiempoDeConstruccion = 2
 metalNecesaria = 800
 petrolioNecesaria = 500
 tropasProducidas = 3
 tiempoEnfriamiento = 45
 cantidadtropasAlmacenadas = 10
-metadata/_custom_type_script = "uid://cvwc53pdh86ov"

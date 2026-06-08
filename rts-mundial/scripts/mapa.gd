@@ -62,9 +62,10 @@ func sortiarPaisesRestantes() -> void:
 
 func iniciarTurno() -> void:
 	get_parent().get_node("Label").text = paisTurnoActual.nombrePais
-	paisTurnoActual.establecerRecursosActuales()
 	paisTurnoActual.cambiarTurno()
 	paisTurnoActual.iniciarTurno()
+	paisTurnoActual.establecerRecursosActuales()
+	
 	
 
 func finalizarTurno() -> void:

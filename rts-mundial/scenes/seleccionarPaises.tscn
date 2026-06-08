@@ -23,55 +23,163 @@
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4xr1i"]
 texture = ExtResource("2_nlh47")
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xyqv8"]
+texture = ExtResource("2_nlh47")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7f05j"]
+texture = ExtResource("2_nlh47")
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l2iv7"]
+texture = ExtResource("3_jo50r")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_sfy3o"]
+texture = ExtResource("3_jo50r")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cc6jg"]
 texture = ExtResource("3_jo50r")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4w82p"]
 texture = ExtResource("4_2j1fm")
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kj1pl"]
+texture = ExtResource("4_2j1fm")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6kfui"]
+texture = ExtResource("4_2j1fm")
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_p1ffy"]
+texture = ExtResource("5_f1rrm")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0fj58"]
+texture = ExtResource("5_f1rrm")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_oif2c"]
 texture = ExtResource("5_f1rrm")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_p1cod"]
 texture = ExtResource("6_xy1mi")
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vgpjv"]
+texture = ExtResource("6_xy1mi")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_w7ypg"]
+texture = ExtResource("6_xy1mi")
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rb6jw"]
+texture = ExtResource("7_7x4l4")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xfwnu"]
+texture = ExtResource("7_7x4l4")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_hrksw"]
 texture = ExtResource("7_7x4l4")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dcfll"]
 texture = ExtResource("2_07yk2")
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nlh47"]
+texture = ExtResource("2_07yk2")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jo50r"]
+texture = ExtResource("2_07yk2")
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3lcxx"]
+texture = ExtResource("9_7uo1f")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8u00l"]
+texture = ExtResource("9_7uo1f")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_32iu7"]
 texture = ExtResource("9_7uo1f")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_af5i0"]
 texture = ExtResource("2_ie4ml")
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2j1fm"]
+texture = ExtResource("2_ie4ml")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_f1rrm"]
+texture = ExtResource("2_ie4ml")
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8d8yy"]
+texture = ExtResource("4_p8b2t")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xy1mi"]
+texture = ExtResource("4_p8b2t")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7x4l4"]
 texture = ExtResource("4_p8b2t")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7j8jl"]
 texture = ExtResource("3_hg3aj")
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7uo1f"]
+texture = ExtResource("3_hg3aj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_12d82"]
+texture = ExtResource("3_hg3aj")
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5xj8w"]
+texture = ExtResource("6_nb3v8")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ep13m"]
+texture = ExtResource("6_nb3v8")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ukiu4"]
 texture = ExtResource("6_nb3v8")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_c1hep"]
 texture = ExtResource("7_qlasr")
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ehikp"]
+texture = ExtResource("7_qlasr")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_g74ye"]
+texture = ExtResource("7_qlasr")
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tk88p"]
+texture = ExtResource("2_nv17g")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wmig3"]
+texture = ExtResource("2_nv17g")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7maug"]
 texture = ExtResource("2_nv17g")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5ubss"]
 texture = ExtResource("4_hg3aj")
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vk5x2"]
+texture = ExtResource("4_hg3aj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_yrqny"]
+texture = ExtResource("4_hg3aj")
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nv17g"]
+texture = ExtResource("2_6y6n4")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_t1v8g"]
+texture = ExtResource("2_6y6n4")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fvq5w"]
 texture = ExtResource("2_6y6n4")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_07yk2"]
 texture = ExtResource("6_7j8jl")
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ee3yb"]
+texture = ExtResource("6_7j8jl")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8qkal"]
+texture = ExtResource("6_7j8jl")
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ygi6p"]
+texture = ExtResource("19_12d82")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_f5dpd"]
+texture = ExtResource("19_12d82")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_sshhi"]
 texture = ExtResource("19_12d82")
 
 [node name="SeleccionarPaises" type="Control" unique_id=420149081]
@@ -103,6 +211,8 @@ offset_right = 262.0
 offset_bottom = 570.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_4xr1i")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_xyqv8")
+theme_override_styles/hover = SubResource("StyleBoxTexture_7f05j")
 
 [node name="BRASIL" type="Button" parent="." unique_id=1371980165]
 layout_mode = 0
@@ -112,6 +222,8 @@ offset_right = 263.0
 offset_bottom = 461.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_l2iv7")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_sfy3o")
+theme_override_styles/hover = SubResource("StyleBoxTexture_cc6jg")
 
 [node name="CHILE" type="Button" parent="." unique_id=793552346]
 layout_mode = 0
@@ -121,6 +233,8 @@ offset_right = 484.0
 offset_bottom = 460.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_4w82p")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_kj1pl")
+theme_override_styles/hover = SubResource("StyleBoxTexture_6kfui")
 
 [node name="MEXICO" type="Button" parent="." unique_id=922365125]
 layout_mode = 0
@@ -130,6 +244,8 @@ offset_right = 483.0
 offset_bottom = 569.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_p1ffy")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_0fj58")
+theme_override_styles/hover = SubResource("StyleBoxTexture_oif2c")
 
 [node name="USA" type="Button" parent="." unique_id=1314125372]
 layout_mode = 0
@@ -139,6 +255,8 @@ offset_right = 690.0
 offset_bottom = 463.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_p1cod")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_vgpjv")
+theme_override_styles/hover = SubResource("StyleBoxTexture_w7ypg")
 
 [node name="CANADA" type="Button" parent="." unique_id=511165833]
 layout_mode = 0
@@ -148,6 +266,8 @@ offset_right = 894.0
 offset_bottom = 462.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_rb6jw")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_xfwnu")
+theme_override_styles/hover = SubResource("StyleBoxTexture_hrksw")
 
 [node name="EGIPTO" type="Button" parent="." unique_id=987931233]
 layout_mode = 0
@@ -157,6 +277,8 @@ offset_right = 485.0
 offset_bottom = 351.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_dcfll")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_nlh47")
+theme_override_styles/hover = SubResource("StyleBoxTexture_jo50r")
 
 [node name="ETIOPIA" type="Button" parent="." unique_id=1660766231]
 layout_mode = 0
@@ -166,6 +288,8 @@ offset_right = 1081.0
 offset_bottom = 464.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_3lcxx")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_8u00l")
+theme_override_styles/hover = SubResource("StyleBoxTexture_32iu7")
 
 [node name="SAHARA" type="Button" parent="." unique_id=1206306781]
 layout_mode = 0
@@ -175,6 +299,8 @@ offset_right = 692.0
 offset_bottom = 245.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_af5i0")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_2j1fm")
+theme_override_styles/hover = SubResource("StyleBoxTexture_f1rrm")
 
 [node name="SUDAFRICA" type="Button" parent="." unique_id=1734269914]
 layout_mode = 0
@@ -184,6 +310,8 @@ offset_right = 895.0
 offset_bottom = 353.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_8d8yy")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_xy1mi")
+theme_override_styles/hover = SubResource("StyleBoxTexture_7x4l4")
 
 [node name="ALEMANIA" type="Button" parent="." unique_id=1635858731]
 layout_mode = 0
@@ -193,6 +321,8 @@ offset_right = 264.0
 offset_bottom = 352.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_7j8jl")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_7uo1f")
+theme_override_styles/hover = SubResource("StyleBoxTexture_12d82")
 
 [node name="FRANCIA" type="Button" parent="." unique_id=688428704]
 layout_mode = 0
@@ -202,6 +332,8 @@ offset_right = 1082.0
 offset_bottom = 355.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_5xj8w")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_ep13m")
+theme_override_styles/hover = SubResource("StyleBoxTexture_ukiu4")
 
 [node name="INGLATERRA" type="Button" parent="." unique_id=1296839259]
 layout_mode = 0
@@ -211,6 +343,8 @@ offset_right = 691.0
 offset_bottom = 354.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_c1hep")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_ehikp")
+theme_override_styles/hover = SubResource("StyleBoxTexture_g74ye")
 
 [node name="AUSTRALIA" type="Button" parent="." unique_id=1352088218]
 layout_mode = 0
@@ -220,6 +354,8 @@ offset_right = 486.0
 offset_bottom = 242.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_tk88p")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_wmig3")
+theme_override_styles/hover = SubResource("StyleBoxTexture_7maug")
 
 [node name="SANMARINO" type="Button" parent="." unique_id=853063417]
 layout_mode = 0
@@ -229,6 +365,8 @@ offset_right = 896.0
 offset_bottom = 244.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_5ubss")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_vk5x2")
+theme_override_styles/hover = SubResource("StyleBoxTexture_yrqny")
 
 [node name="RUSIA" type="Button" parent="." unique_id=752852321]
 layout_mode = 0
@@ -238,6 +376,8 @@ offset_right = 265.0
 offset_bottom = 243.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_nv17g")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_t1v8g")
+theme_override_styles/hover = SubResource("StyleBoxTexture_fvq5w")
 
 [node name="CHINA" type="Button" parent="." unique_id=648569185]
 layout_mode = 0
@@ -247,6 +387,8 @@ offset_right = 1083.0
 offset_bottom = 246.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_07yk2")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_ee3yb")
+theme_override_styles/hover = SubResource("StyleBoxTexture_8qkal")
 
 [node name="INDIA" type="Button" parent="." unique_id=1186032311]
 layout_mode = 0
@@ -256,6 +398,8 @@ offset_right = 688.0
 offset_bottom = 572.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/normal = SubResource("StyleBoxTexture_ygi6p")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_f5dpd")
+theme_override_styles/hover = SubResource("StyleBoxTexture_sshhi")
 
 [connection signal="pressed" from="ARGENTINA" to="." method="_on_argentina_pressed"]
 [connection signal="pressed" from="BRASIL" to="." method="_on_brasil_pressed"]
