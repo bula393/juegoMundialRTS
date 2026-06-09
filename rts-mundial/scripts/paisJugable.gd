@@ -39,7 +39,7 @@ func iniciarTurno() -> void:
 	generarTropas()
 	revisarConstruccionesEnProceso()
 	generarRecursos()
-	menuRecuros.actualizar_recursos(madera, metal, petroleo, tropasTerrestres)
+	menuRecuros.actualizar_recursos(madera, metal, petroleo, tropasTerrestres, tropasMaritimas, tropasAereas)
 	
 
 func generarRecursos() -> void:
@@ -82,7 +82,7 @@ func construir(c : Construccion) -> void:
 	establecerRecursosActuales()
 	
 func establecerRecursosActuales() -> void:
-	menuRecuros.actualizar_recursos(madera, metal, petroleo, tropasTerrestres)
+	menuRecuros.actualizar_recursos(madera, metal, petroleo, tropasTerrestres, tropasMaritimas, tropasAereas)
 
 func revisarConstruccionesEnProceso() -> void: 
 	
